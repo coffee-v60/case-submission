@@ -1,0 +1,144 @@
+[
+  {
+    "record": "note-p53-t2-r2",
+    "column": "c3",
+    "expected": 77645032,
+    "produced": {
+      "raw": "77.645.032",
+      "value": 77645032,
+      "state": "numeric",
+      "confidence": 0.6357106666666666,
+      "bbox": [
+        1923.0,
+        2052.0,
+        2129.0,
+        2087.0
+      ],
+      "low_confidence": false,
+      "warnings": [
+        "ocr_variants_disagree",
+        "ocr_alternative_selected_using_financial_constraint"
+      ],
+      "unit": null,
+      "ocr_alternatives": [
+        {
+          "raw": "71.645.032",
+          "value": 71645032,
+          "source": "original"
+        },
+        {
+          "raw": "77.645.032",
+          "value": 77645032,
+          "source": "preprocessed"
+        },
+        {
+          "raw": "71.645.032",
+          "value": 71645032,
+          "source": "crop_psm7"
+        }
+      ],
+      "agreement": 0.6666666666666666,
+      "initial_raw": "71.645.032",
+      "financial_selection": {
+        "rule": "existing_ocr_alternative_matches_component_sum",
+        "components": [
+          64046943,
+          13598089
+        ],
+        "selected_source": "preprocessed",
+        "independent_validation": false
+      }
+    },
+    "stage": "ocr_disambiguation",
+    "probable_cause": "Original-page OCR and original crop agree on the wrong digit. The preprocessed alternative is consistent with the independently read component cells.",
+    "improvement": "Review the crop visually. This correction uses arithmetic, so the same sum check is not independent proof of OCR accuracy.",
+    "confidence": 0.6357106666666666
+  },
+  {
+    "record": "note-p54-t1-r3",
+    "column": "c2",
+    "expected": "A percentage range preserving both endpoints",
+    "produced": {
+      "raw": "%2-%4",
+      "value": null,
+      "state": "invalid",
+      "confidence": 0.230708,
+      "bbox": [
+        2024.0,
+        1060.0,
+        2157.0,
+        1095.0
+      ],
+      "low_confidence": true,
+      "warnings": [
+        "unrecognized_numeric_format",
+        "cell_evidence_below_threshold"
+      ],
+      "unit": "percent"
+    },
+    "stage": "normalization",
+    "probable_cause": "The scalar financial-value schema cannot represent a percentage interval; raw text is retained as invalid.",
+    "improvement": "Extend the schema with a range state and lower/upper bounds; do not turn the interval into a single number.",
+    "confidence": 0.230708
+  },
+  {
+    "record": "note-p54-t1-r2",
+    "column": "c1",
+    "expected": "Unambiguous source-cell reading; no manual ground truth supplied",
+    "produced": {
+      "raw": "86,6",
+      "value": 86.6,
+      "state": "numeric",
+      "confidence": 0.568664,
+      "bbox": [
+        1680.0,
+        997.0,
+        1794.0,
+        1038.0
+      ],
+      "low_confidence": true,
+      "warnings": [
+        "ocr_variants_disagree"
+      ],
+      "unit": "percent",
+      "unit_inferred_from_label": true,
+      "ocr_alternatives": [
+        {
+          "raw": "86,6",
+          "value": 86.6,
+          "source": "original"
+        },
+        {
+          "raw": "%386,6",
+          "value": 386.6,
+          "source": "preprocessed"
+        },
+        {
+          "raw": "086,6",
+          "value": 86.6,
+          "source": "crop_psm7"
+        }
+      ],
+      "agreement": 0.6666666666666666
+    },
+    "stage": "ocr/normalization",
+    "probable_cause": "OCR variants disagree on a digit or punctuation; confidence is reduced by measured agreement.",
+    "improvement": "Inspect the saved original and preprocessed crop; use an independent OCR engine to resolve the ambiguity.",
+    "confidence": 0.568664
+  },
+  {
+    "record": "summary-p7-t1-r6",
+    "expected": "Unique period-consistent explanatory note row",
+    "produced": [
+      "note-p53-t1-r3",
+      "note-p53-t2-r4"
+    ],
+    "stage": "semantic_matching",
+    "probable_cause": "Several rows express the same closing balance or closely related concepts.",
+    "improvement": "Allow multiple valid links; add reviewed labels to calibrate margin and role features.",
+    "confidence": 0.704995,
+    "warnings": [
+      "candidate_margin_low"
+    ]
+  }
+]

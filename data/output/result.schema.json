@@ -1,0 +1,580 @@
+{
+  "$defs": {
+    "Column": {
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "period": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Period"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "period"
+      ],
+      "title": "Column",
+      "type": "object"
+    },
+    "FinancialValue": {
+      "additionalProperties": true,
+      "properties": {
+        "raw": {
+          "title": "Raw",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        },
+        "state": {
+          "enum": [
+            "numeric",
+            "dash",
+            "blank",
+            "invalid"
+          ],
+          "title": "State",
+          "type": "string"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "bbox": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bbox"
+        },
+        "low_confidence": {
+          "default": false,
+          "title": "Low Confidence",
+          "type": "boolean"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "const": "percent",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        }
+      },
+      "required": [
+        "raw",
+        "state",
+        "confidence"
+      ],
+      "title": "FinancialValue",
+      "type": "object"
+    },
+    "Hierarchy": {
+      "additionalProperties": true,
+      "properties": {
+        "level": {
+          "minimum": 0,
+          "title": "Level",
+          "type": "integer"
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Parent Id"
+        }
+      },
+      "required": [
+        "level",
+        "parent_id"
+      ],
+      "title": "Hierarchy",
+      "type": "object"
+    },
+    "Note": {
+      "additionalProperties": true,
+      "properties": {
+        "number": {
+          "minimum": 1,
+          "title": "Number",
+          "type": "integer"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "start_page": {
+          "minimum": 1,
+          "title": "Start Page",
+          "type": "integer"
+        },
+        "end_page": {
+          "minimum": 1,
+          "title": "End Page",
+          "type": "integer"
+        },
+        "detection_confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Detection Confidence",
+          "type": "number"
+        },
+        "tables": {
+          "items": {
+            "$ref": "#/$defs/Table"
+          },
+          "title": "Tables",
+          "type": "array"
+        }
+      },
+      "required": [
+        "number",
+        "title",
+        "start_page",
+        "end_page",
+        "detection_confidence",
+        "tables"
+      ],
+      "title": "Note",
+      "type": "object"
+    },
+    "Relationship": {
+      "additionalProperties": true,
+      "properties": {
+        "summary_row_id": {
+          "title": "Summary Row Id",
+          "type": "string"
+        },
+        "note_number": {
+          "title": "Note Number",
+          "type": "integer"
+        },
+        "note_table_id": {
+          "title": "Note Table Id",
+          "type": "string"
+        },
+        "note_row_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Note Row Ids",
+          "type": "array"
+        },
+        "relation_type": {
+          "enum": [
+            "closing_balance",
+            "opening_balance",
+            "movement",
+            "valuation_gain",
+            "component",
+            "total",
+            "other"
+          ],
+          "title": "Relation Type",
+          "type": "string"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "low_confidence": {
+          "title": "Low Confidence",
+          "type": "boolean"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        }
+      },
+      "required": [
+        "summary_row_id",
+        "note_number",
+        "note_table_id",
+        "note_row_ids",
+        "relation_type",
+        "confidence",
+        "low_confidence",
+        "warnings"
+      ],
+      "title": "Relationship",
+      "type": "object"
+    },
+    "Row": {
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "raw_label": {
+          "title": "Raw Label",
+          "type": "string"
+        },
+        "normalized_label": {
+          "title": "Normalized Label",
+          "type": "string"
+        },
+        "note_reference": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Note Reference",
+          "type": "array"
+        },
+        "hierarchy": {
+          "$ref": "#/$defs/Hierarchy"
+        },
+        "row_type": {
+          "enum": [
+            "section",
+            "line_item",
+            "subtotal",
+            "total",
+            "grand_total"
+          ],
+          "title": "Row Type",
+          "type": "string"
+        },
+        "values": {
+          "additionalProperties": {
+            "$ref": "#/$defs/FinancialValue"
+          },
+          "title": "Values",
+          "type": "object"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "low_confidence": {
+          "title": "Low Confidence",
+          "type": "boolean"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        },
+        "component_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Component Ids",
+          "type": "array"
+        },
+        "aggregation_rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Aggregation Rule"
+        },
+        "financial_role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Financial Role"
+        },
+        "reconciles_to": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reconciles To"
+        },
+        "distribution_of": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Distribution Of"
+        }
+      },
+      "required": [
+        "id",
+        "raw_label",
+        "normalized_label",
+        "note_reference",
+        "hierarchy",
+        "row_type",
+        "values",
+        "confidence",
+        "low_confidence",
+        "warnings"
+      ],
+      "title": "Row",
+      "type": "object"
+    },
+    "Table": {
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "page": {
+          "minimum": 1,
+          "title": "Page",
+          "type": "integer"
+        },
+        "columns": {
+          "items": {
+            "$ref": "#/$defs/Column"
+          },
+          "title": "Columns",
+          "type": "array"
+        },
+        "periods": {
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Periods",
+          "type": "array"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "low_confidence": {
+          "title": "Low Confidence",
+          "type": "boolean"
+        },
+        "rows": {
+          "items": {
+            "$ref": "#/$defs/Row"
+          },
+          "title": "Rows",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "page",
+        "columns",
+        "periods",
+        "confidence",
+        "low_confidence",
+        "rows"
+      ],
+      "title": "Table",
+      "type": "object"
+    },
+    "ValidationCheck": {
+      "additionalProperties": true,
+      "properties": {
+        "rule": {
+          "title": "Rule",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "passed",
+            "failed",
+            "warning"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "expected": {
+          "title": "Expected"
+        },
+        "observed": {
+          "title": "Observed"
+        },
+        "difference": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Difference"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "rule",
+        "status",
+        "expected",
+        "observed",
+        "difference",
+        "confidence"
+      ],
+      "title": "ValidationCheck",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "document": {
+      "additionalProperties": true,
+      "title": "Document",
+      "type": "object"
+    },
+    "processing": {
+      "additionalProperties": true,
+      "title": "Processing",
+      "type": "object"
+    },
+    "summary_tables": {
+      "items": {
+        "$ref": "#/$defs/Table"
+      },
+      "title": "Summary Tables",
+      "type": "array"
+    },
+    "notes": {
+      "items": {
+        "$ref": "#/$defs/Note"
+      },
+      "title": "Notes",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "$ref": "#/$defs/Relationship"
+      },
+      "title": "Relationships",
+      "type": "array"
+    },
+    "validation": {
+      "items": {
+        "$ref": "#/$defs/ValidationCheck"
+      },
+      "title": "Validation",
+      "type": "array"
+    },
+    "method_comparison": {
+      "additionalProperties": true,
+      "title": "Method Comparison",
+      "type": "object"
+    },
+    "error_analysis": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Error Analysis",
+      "type": "array"
+    }
+  },
+  "required": [
+    "document",
+    "processing",
+    "summary_tables",
+    "notes",
+    "relationships",
+    "validation",
+    "method_comparison",
+    "error_analysis"
+  ],
+  "title": "Result",
+  "type": "object"
+}

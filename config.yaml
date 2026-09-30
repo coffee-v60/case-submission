@@ -1,0 +1,24 @@
+document:
+  input_path: data/input/report.pdf
+summary_tables:
+  page_range: {start: 5, end: 7}
+notes:
+  target_note: 11
+rendering:
+  dpi: 300
+  scan_dpi: 160
+ocr:
+  languages: [tur, eng]
+  tessdata: data/cache/tessdata
+  fallback_threshold: 0.85
+matching:
+  embedding_model: intfloat/multilingual-e5-small
+  reranker_model: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+  top_k: 8
+  allow_fallback: false
+confidence:
+  low_confidence_threshold: 0.60
+validation:
+  tolerance: 1
+output_dir: data/output
+cache_dir: data/cache

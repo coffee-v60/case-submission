@@ -1,0 +1,8 @@
+{
+  "summary_tables": true,
+  "notes": true,
+  "relationships": true,
+  "method_rankings": true,
+  "embedding_cache_hit": true,
+  "reranker_cache_hit": true
+}

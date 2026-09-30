@@ -1,0 +1,740 @@
+{
+  "items": [
+    {
+      "summary_row_id": "summary-p5-t1-r13",
+      "label": "Yatırım Amaçlı Gayrimenkuller",
+      "approach_a": {
+        "candidate": "note-p54-t2-r5",
+        "label": "[unlabelled total]",
+        "score": 0.9267928600311279,
+        "rank": 1,
+        "combined_score": 0.9121514320373535,
+        "note_row_ids": [
+          "note-p54-t2-r5"
+        ],
+        "numeric_evidence": [
+          {
+            "period": "2012",
+            "summary_value": 373992222,
+            "note_value": 373992222,
+            "difference": 0,
+            "equal": true
+          },
+          {
+            "period": "2011",
+            "summary_value": 423580000,
+            "note_value": 423580000,
+            "difference": 0,
+            "equal": true
+          }
+        ],
+        "covered_periods": [
+          "2011",
+          "2012"
+        ]
+      },
+      "approach_b": {
+        "candidate": "note-p54-t2-r5",
+        "label": "[unlabelled total]",
+        "score": 0.03999596173873301,
+        "rank": 1,
+        "combined_score": 0.71607470645336,
+        "note_row_ids": [
+          "note-p54-t2-r5"
+        ],
+        "numeric_evidence": [
+          {
+            "period": "2012",
+            "summary_value": 373992222,
+            "note_value": 373992222,
+            "difference": 0,
+            "equal": true
+          },
+          {
+            "period": "2011",
+            "summary_value": 423580000,
+            "note_value": 423580000,
+            "difference": 0,
+            "equal": true
+          }
+        ],
+        "covered_periods": [
+          "2011",
+          "2012"
+        ]
+      },
+      "same_decision": true,
+      "embedding_top1": "note-p54-t2-r5",
+      "embedding_cosine_top_k": [
+        {
+          "row_id": "note-p54-t2-r5",
+          "score": 0.9267928600311279
+        },
+        {
+          "row_id": "note-p54-t1-r1",
+          "score": 0.9162245988845825
+        },
+        {
+          "row_id": "note-p54-t1-r2",
+          "score": 0.9145205020904541
+        },
+        {
+          "row_id": "note-p53-t2-r3",
+          "score": 0.9142757058143616
+        },
+        {
+          "row_id": "note-p53-t2-r2",
+          "score": 0.913061261177063
+        },
+        {
+          "row_id": "note-p54-t1-r3",
+          "score": 0.9121804237365723
+        },
+        {
+          "row_id": "note-p54-t2-r3",
+          "score": 0.9117991328239441
+        },
+        {
+          "row_id": "note-p53-t1-r2",
+          "score": 0.911213755607605
+        }
+      ],
+      "reranker_top1": "note-p54-t2-r5",
+      "candidate_rankings": [
+        {
+          "row_id": "note-p54-t2-r5",
+          "table_id": "note-p54-t2",
+          "label": "[unlabelled total]",
+          "a_rank": 1,
+          "cosine_rank": 1,
+          "a_score": 0.9267928600311279,
+          "b_logit": -3.17815899848938,
+          "b_score": 0.03999596173873301,
+          "semantic_scaled": 0.8535857200622559,
+          "numeric": 1.0,
+          "period": 1.0,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 373992222,
+              "note_value": 373992222,
+              "difference": 0,
+              "equal": true
+            },
+            {
+              "period": "2011",
+              "summary_value": 423580000,
+              "note_value": 423580000,
+              "difference": 0,
+              "equal": true
+            }
+          ],
+          "structural": 0.9327912500000001,
+          "a_decision": 0.9121514320373535,
+          "b_decision": 0.71607470645336,
+          "b_rank": 1,
+          "a_combined_rank": 1,
+          "b_combined_rank": 1
+        },
+        {
+          "row_id": "note-p53-t2-r5",
+          "table_id": "note-p53-t2",
+          "label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
+          "a_rank": 3,
+          "cosine_rank": 13,
+          "a_score": 0.9080440998077393,
+          "b_logit": -3.281698703765869,
+          "b_score": 0.03620439569972957,
+          "semantic_scaled": 0.8160881996154785,
+          "numeric": 1.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2011",
+              "summary_value": 423580000,
+              "note_value": 423580000,
+              "difference": 0,
+              "equal": true
+            }
+          ],
+          "structural": 0.88726325,
+          "a_decision": 0.8396529197692871,
+          "b_decision": 0.653877558809576,
+          "b_rank": 2,
+          "a_combined_rank": 3,
+          "b_combined_rank": 2
+        },
+        {
+          "row_id": "note-p53-t1-r6",
+          "table_id": "note-p53-t1",
+          "label": "31 Aralık 2012 itibari ile net defter değeri",
+          "a_rank": 2,
+          "cosine_rank": 9,
+          "a_score": 0.9106911420822144,
+          "b_logit": -3.696525812149048,
+          "b_score": 0.024208956230009477,
+          "semantic_scaled": 0.8213822841644287,
+          "numeric": 1.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 373992222,
+              "note_value": 373992222,
+              "difference": 0,
+              "equal": true
+            }
+          ],
+          "structural": 0.9056072500000001,
+          "a_decision": 0.8428293704986572,
+          "b_decision": 0.6524669243068311,
+          "b_rank": 5,
+          "a_combined_rank": 2,
+          "b_combined_rank": 3
+        },
+        {
+          "row_id": "note-p53-t1-r5",
+          "table_id": "note-p53-t1",
+          "label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
+          "a_rank": 4,
+          "cosine_rank": 16,
+          "a_score": 0.9056061506271362,
+          "b_logit": -3.683622360229492,
+          "b_score": 0.02451565161470388,
+          "semantic_scaled": 0.8112123012542725,
+          "numeric": 1.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 373992222,
+              "note_value": 373992222,
+              "difference": 0,
+              "equal": true
+            }
+          ],
+          "structural": 0.898416,
+          "a_decision": 0.8367273807525635,
+          "b_decision": 0.6494926032799577,
+          "b_rank": 4,
+          "a_combined_rank": 4,
+          "b_combined_rank": 4
+        },
+        {
+          "row_id": "note-p54-t2-r3",
+          "table_id": "note-p54-t2",
+          "label": "Güneşli Bina",
+          "a_rank": 5,
+          "cosine_rank": 7,
+          "a_score": 0.9117991328239441,
+          "b_logit": -3.846846342086792,
+          "b_score": 0.02090078337193325,
+          "semantic_scaled": 0.8235982656478882,
+          "numeric": 0.0,
+          "period": 1.0,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 373992222,
+              "note_value": 83586353,
+              "difference": -290405869,
+              "equal": false
+            },
+            {
+              "period": "2011",
+              "summary_value": 423580000,
+              "note_value": 81890000,
+              "difference": -341690000,
+              "equal": false
+            }
+          ],
+          "structural": 0.9587927500000001,
+          "a_decision": 0.5941589593887329,
+          "b_decision": 0.3523046755373498,
+          "b_rank": 6,
+          "a_combined_rank": 5,
+          "b_combined_rank": 5
+        },
+        {
+          "row_id": "note-p54-t2-r4",
+          "table_id": "note-p54-t2",
+          "label": "İkitelli Bina",
+          "a_rank": 6,
+          "cosine_rank": 10,
+          "a_score": 0.9103319644927979,
+          "b_logit": -3.870638132095337,
+          "b_score": 0.020419419191117495,
+          "semantic_scaled": 0.8206639289855957,
+          "numeric": 0.0,
+          "period": 1.0,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 373992222,
+              "note_value": 186659528,
+              "difference": -187332694,
+              "equal": false
+            },
+            {
+              "period": "2011",
+              "summary_value": 423580000,
+              "note_value": 181435000,
+              "difference": -242145000,
+              "equal": false
+            }
+          ],
+          "structural": 0.9580555000000001,
+          "a_decision": 0.5923983573913574,
+          "b_decision": 0.35130403349345807,
+          "b_rank": 7,
+          "a_combined_rank": 6,
+          "b_combined_rank": 6
+        },
+        {
+          "row_id": "note-p53-t2-r3",
+          "table_id": "note-p53-t2",
+          "label": "Çıkışlar (**)",
+          "a_rank": 7,
+          "cosine_rank": 4,
+          "a_score": 0.9142757058143616,
+          "b_logit": -3.656973123550415,
+          "b_score": 0.02516109882164394,
+          "semantic_scaled": 0.8285514116287231,
+          "numeric": 0.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2011",
+              "summary_value": 423580000,
+              "note_value": -10450000,
+              "difference": -434030000,
+              "equal": false
+            }
+          ],
+          "structural": 0.877713,
+          "a_decision": 0.5471308469772339,
+          "b_decision": 0.3048556981940279,
+          "b_rank": 3,
+          "a_combined_rank": 7,
+          "b_combined_rank": 7
+        },
+        {
+          "row_id": "note-p53-t2-r2",
+          "table_id": "note-p53-t2",
+          "label": "Alımlar (*)",
+          "a_rank": 8,
+          "cosine_rank": 5,
+          "a_score": 0.913061261177063,
+          "b_logit": -4.108887195587158,
+          "b_score": 0.016160588801172972,
+          "semantic_scaled": 0.826122522354126,
+          "numeric": 0.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2011",
+              "summary_value": 423580000,
+              "note_value": 77645032,
+              "difference": -345934968,
+              "equal": false
+            }
+          ],
+          "structural": 0.88699325,
+          "a_decision": 0.5456735134124756,
+          "b_decision": 0.301876903906531,
+          "b_rank": 8,
+          "a_combined_rank": 8,
+          "b_combined_rank": 8
+        }
+      ],
+      "analysis": "A: [unlabelled total]; B: [unlabelled total]. B margin=0.0622; numeric=1.00; period=1.00. Scores are not probabilities.",
+      "ranking_differences": [
+        {
+          "row_id": "note-p53-t2-r5",
+          "a_position": 3,
+          "b_position": 2
+        },
+        {
+          "row_id": "note-p53-t1-r6",
+          "a_position": 2,
+          "b_position": 3
+        }
+      ]
+    },
+    {
+      "summary_row_id": "summary-p7-t1-r6",
+      "label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
+      "approach_a": {
+        "candidate": "note-p53-t1-r3",
+        "label": "Makul değer değişikliğinden kaynaklanan kazanç",
+        "score": 0.9073481559753418,
+        "rank": 1,
+        "combined_score": 0.8388177871704101,
+        "note_row_ids": [
+          "note-p53-t1-r3",
+          "note-p53-t2-r4"
+        ],
+        "numeric_evidence": [
+          {
+            "period": "2012",
+            "summary_value": 3896434,
+            "note_value": 3896434,
+            "difference": 0,
+            "equal": true
+          },
+          {
+            "period": "2011",
+            "summary_value": 151350000,
+            "note_value": 151350000,
+            "difference": 0,
+            "equal": true
+          }
+        ],
+        "covered_periods": [
+          "2011",
+          "2012"
+        ]
+      },
+      "approach_b": {
+        "candidate": "note-p53-t1-r3",
+        "label": "Makul değer değişikliğinden kaynaklanan kazanç",
+        "score": 0.003028301430095417,
+        "rank": 7,
+        "combined_score": 0.6451659689427289,
+        "note_row_ids": [
+          "note-p53-t1-r3",
+          "note-p53-t2-r4"
+        ],
+        "numeric_evidence": [
+          {
+            "period": "2012",
+            "summary_value": 3896434,
+            "note_value": 3896434,
+            "difference": 0,
+            "equal": true
+          },
+          {
+            "period": "2011",
+            "summary_value": 151350000,
+            "note_value": 151350000,
+            "difference": 0,
+            "equal": true
+          }
+        ],
+        "covered_periods": [
+          "2011",
+          "2012"
+        ]
+      },
+      "same_decision": true,
+      "embedding_top1": "note-p54-t2-r5",
+      "embedding_cosine_top_k": [
+        {
+          "row_id": "note-p54-t2-r5",
+          "score": 0.9226946234703064
+        },
+        {
+          "row_id": "note-p54-t1-r1",
+          "score": 0.917940616607666
+        },
+        {
+          "row_id": "note-p54-t1-r2",
+          "score": 0.9170856475830078
+        },
+        {
+          "row_id": "note-p54-t1-r3",
+          "score": 0.9142246246337891
+        },
+        {
+          "row_id": "note-p53-t2-r3",
+          "score": 0.9134694933891296
+        },
+        {
+          "row_id": "note-p54-t2-r3",
+          "score": 0.9118699431419373
+        },
+        {
+          "row_id": "note-p53-t2-r2",
+          "score": 0.9112998247146606
+        },
+        {
+          "row_id": "note-p54-t2-r4",
+          "score": 0.9105427265167236
+        }
+      ],
+      "reranker_top1": "note-p54-t2-r5",
+      "candidate_rankings": [
+        {
+          "row_id": "note-p53-t1-r3",
+          "table_id": "note-p53-t1",
+          "label": "Makul değer değişikliğinden kaynaklanan kazanç",
+          "a_rank": 1,
+          "cosine_rank": 14,
+          "a_score": 0.9073481559753418,
+          "b_logit": -5.796720504760742,
+          "b_score": 0.003028301430095417,
+          "semantic_scaled": 0.8146963119506836,
+          "numeric": 1.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 3896434,
+              "note_value": 3896434,
+              "difference": 0,
+              "equal": true
+            }
+          ],
+          "structural": 0.909925,
+          "a_decision": 0.8388177871704101,
+          "b_decision": 0.6451659689427289,
+          "b_rank": 7,
+          "a_combined_rank": 1,
+          "b_combined_rank": 1
+        },
+        {
+          "row_id": "note-p53-t2-r4",
+          "table_id": "note-p53-t2",
+          "label": "Makul değer değişikliğinden kaynaklanan kazanç",
+          "a_rank": 2,
+          "cosine_rank": 15,
+          "a_score": 0.9062145352363586,
+          "b_logit": -5.612327575683594,
+          "b_score": 0.0036392652243808204,
+          "semantic_scaled": 0.8124290704727173,
+          "numeric": 1.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2011",
+              "summary_value": 151350000,
+              "note_value": 151350000,
+              "difference": 0,
+              "equal": true
+            }
+          ],
+          "structural": 0.8927345,
+          "a_decision": 0.8374574422836304,
+          "b_decision": 0.6446385374479104,
+          "b_rank": 4,
+          "a_combined_rank": 2,
+          "b_combined_rank": 2
+        },
+        {
+          "row_id": "note-p54-t2-r5",
+          "table_id": "note-p54-t2",
+          "label": "[unlabelled total]",
+          "a_rank": 3,
+          "cosine_rank": 1,
+          "a_score": 0.9226946234703064,
+          "b_logit": -5.535226345062256,
+          "b_score": 0.003929811187111637,
+          "semantic_scaled": 0.8453892469406128,
+          "numeric": 0.0,
+          "period": 1.0,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 3896434,
+              "note_value": 373992222,
+              "difference": 370095788,
+              "equal": false
+            },
+            {
+              "period": "2011",
+              "summary_value": 151350000,
+              "note_value": 423580000,
+              "difference": 272230000,
+              "equal": false
+            }
+          ],
+          "structural": 0.9297355,
+          "a_decision": 0.6072335481643676,
+          "b_decision": 0.3545992268789617,
+          "b_rank": 1,
+          "a_combined_rank": 3,
+          "b_combined_rank": 3
+        },
+        {
+          "row_id": "note-p54-t2-r3",
+          "table_id": "note-p54-t2",
+          "label": "Güneşli Bina",
+          "a_rank": 4,
+          "cosine_rank": 6,
+          "a_score": 0.9118699431419373,
+          "b_logit": -5.756182670593262,
+          "b_score": 0.003153189364413651,
+          "semantic_scaled": 0.8237398862838745,
+          "numeric": 0.0,
+          "period": 1.0,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 3896434,
+              "note_value": 83586353,
+              "difference": 79689919,
+              "equal": false
+            },
+            {
+              "period": "2011",
+              "summary_value": 151350000,
+              "note_value": 81890000,
+              "difference": -69460000,
+              "equal": false
+            }
+          ],
+          "structural": 0.9557370000000001,
+          "a_decision": 0.5942439317703246,
+          "b_decision": 0.3479102632262657,
+          "b_rank": 6,
+          "a_combined_rank": 4,
+          "b_combined_rank": 4
+        },
+        {
+          "row_id": "note-p54-t2-r4",
+          "table_id": "note-p54-t2",
+          "label": "İkitelli Bina",
+          "a_rank": 5,
+          "cosine_rank": 8,
+          "a_score": 0.9105427265167236,
+          "b_logit": -5.706050395965576,
+          "b_score": 0.003314757998581938,
+          "semantic_scaled": 0.8210854530334473,
+          "numeric": 0.0,
+          "period": 1.0,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 3896434,
+              "note_value": 186659528,
+              "difference": 182763094,
+              "equal": false
+            },
+            {
+              "period": "2011",
+              "summary_value": 151350000,
+              "note_value": 181435000,
+              "difference": 30085000,
+              "equal": false
+            }
+          ],
+          "structural": 0.95499975,
+          "a_decision": 0.5926512718200684,
+          "b_decision": 0.34715432540967966,
+          "b_rank": 5,
+          "a_combined_rank": 5,
+          "b_combined_rank": 5
+        },
+        {
+          "row_id": "note-p53-t2-r3",
+          "table_id": "note-p53-t2",
+          "label": "Çıkışlar (**)",
+          "a_rank": 6,
+          "cosine_rank": 5,
+          "a_score": 0.9134694933891296,
+          "b_logit": -5.554577350616455,
+          "b_score": 0.0038547867694321107,
+          "semantic_scaled": 0.8269389867782593,
+          "numeric": 0.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2011",
+              "summary_value": 151350000,
+              "note_value": -10450000,
+              "difference": -161800000,
+              "equal": false
+            }
+          ],
+          "structural": 0.87465725,
+          "a_decision": 0.5461633920669555,
+          "b_decision": 0.2990453927258358,
+          "b_rank": 2,
+          "a_combined_rank": 6,
+          "b_combined_rank": 6
+        },
+        {
+          "row_id": "note-p53-t2-r2",
+          "table_id": "note-p53-t2",
+          "label": "Alımlar (*)",
+          "a_rank": 7,
+          "cosine_rank": 7,
+          "a_score": 0.9112998247146606,
+          "b_logit": -5.57733154296875,
+          "b_score": 0.00376839140106546,
+          "semantic_scaled": 0.8225996494293213,
+          "numeric": 0.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2011",
+              "summary_value": 151350000,
+              "note_value": 77645032,
+              "difference": -73704968,
+              "equal": false
+            }
+          ],
+          "structural": 0.8839375,
+          "a_decision": 0.5435597896575928,
+          "b_decision": 0.29772199267906274,
+          "b_rank": 3,
+          "a_combined_rank": 7,
+          "b_combined_rank": 7
+        },
+        {
+          "row_id": "note-p53-t1-r6",
+          "table_id": "note-p53-t1",
+          "label": "31 Aralık 2012 itibari ile net defter değeri",
+          "a_rank": 8,
+          "cosine_rank": 9,
+          "a_score": 0.9104461669921875,
+          "b_logit": -5.9211106300354,
+          "b_score": 0.00267504451173337,
+          "semantic_scaled": 0.820892333984375,
+          "numeric": 0.0,
+          "period": 0.5,
+          "evidence": [
+            {
+              "period": "2012",
+              "summary_value": 3896434,
+              "note_value": 177730044,
+              "difference": 173833610,
+              "equal": false
+            }
+          ],
+          "structural": 0.9025515,
+          "a_decision": 0.542535400390625,
+          "b_decision": 0.29693646132324586,
+          "b_rank": 8,
+          "a_combined_rank": 8,
+          "b_combined_rank": 8
+        }
+      ],
+      "analysis": "A: Makul değer değişikliğinden kaynaklanan kazanç; B: Makul değer değişikliğinden kaynaklanan kazanç. B margin=0.0005; numeric=1.00; period=0.50. Scores are not probabilities.",
+      "ranking_differences": []
+    }
+  ],
+  "processing": {
+    "embedding_inference": true,
+    "reranker_inference": true,
+    "fallbacks": [],
+    "models": {
+      "embedding": {
+        "name": "intfloat/multilingual-e5-small",
+        "path": "/home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small",
+        "max_tokens": 512
+      },
+      "reranker": {
+        "name": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+        "path": "/home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1",
+        "max_tokens": 512
+      }
+    },
+    "embedding_cache_hit": true,
+    "embedding_seconds": 0.0007871119996707421,
+    "reranker_cache_hit": true,
+    "reranker_seconds": 2.2000000171829015e-05
+  },
+  "agreement": 1.0,
+  "ground_truth_accuracy": null
+}

@@ -1,0 +1,91 @@
+2026-09-30 17:03:00,964 INFO [1/15] Inspecting PDF
+2026-09-30 17:03:00,993 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:03:00,996 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:03:01,037 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:03:01,247 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:03:01,247 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:03:01,287 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:03:04,187 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+2026-09-30 17:03:06,182 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+2026-09-30 17:03:09,447 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:03:09,462 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:03:09,483 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 257}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 29, 'warning': 6}}
+2026-09-30 17:03:09,484 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']
+2026-09-30 17:10:55,451 INFO [1/15] Inspecting PDF
+2026-09-30 17:10:55,477 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:10:55,481 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:10:55,521 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:10:55,729 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:10:55,729 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:10:55,769 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:10:58,653 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+2026-09-30 17:11:00,637 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+2026-09-30 17:11:03,910 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:11:03,926 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:11:03,949 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 269}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 58, 'warning': 7}}
+2026-09-30 17:11:03,949 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']
+2026-09-30 17:13:21,778 INFO [1/15] Inspecting PDF
+2026-09-30 17:13:21,804 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:13:21,809 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:13:21,849 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:13:22,056 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:13:22,056 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:13:22,096 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:13:25,062 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+2026-09-30 17:13:27,075 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+2026-09-30 17:13:29,037 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:13:29,053 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:13:29,075 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 269}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 58, 'warning': 7}}
+2026-09-30 17:13:29,076 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']
+2026-09-30 17:15:46,934 INFO [1/15] Inspecting PDF
+2026-09-30 17:15:46,964 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:15:46,968 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:15:47,010 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:15:47,216 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:15:47,217 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:15:47,257 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:15:50,147 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+2026-09-30 17:15:52,139 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+2026-09-30 17:15:54,089 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:15:54,104 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:15:54,127 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 269}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 58, 'warning': 7}}
+2026-09-30 17:15:54,127 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']
+2026-09-30 17:16:16,151 INFO [1/15] Inspecting PDF
+2026-09-30 17:16:16,184 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:16:16,188 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:16:16,229 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:16:16,439 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:16:16,439 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:16:16,479 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:16:19,326 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+2026-09-30 17:16:21,370 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+2026-09-30 17:16:23,330 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:16:23,346 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:16:23,369 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 269}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 58, 'warning': 7}}
+2026-09-30 17:16:23,369 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']
+2026-09-30 17:16:36,375 INFO [1/15] Inspecting PDF
+2026-09-30 17:16:36,405 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:16:36,408 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:16:36,449 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:16:36,655 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:16:36,655 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:16:36,694 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:16:39,553 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+2026-09-30 17:16:41,492 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+2026-09-30 17:16:43,410 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:16:43,426 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:16:43,448 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 269}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 58, 'warning': 7}}
+2026-09-30 17:16:43,448 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']
+2026-09-30 17:17:21,268 INFO [1/15] Inspecting PDF
+2026-09-30 17:17:21,293 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:17:21,297 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:17:21,338 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:17:21,537 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:17:21,537 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:17:21,578 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:17:24,386 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+2026-09-30 17:17:26,382 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+2026-09-30 17:17:28,267 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:17:28,282 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:17:28,305 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 269}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 58, 'warning': 7}}
+2026-09-30 17:17:28,305 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']

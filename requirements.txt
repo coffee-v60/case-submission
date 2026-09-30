@@ -1,0 +1,12 @@
+PyMuPDF>=1.26,<2
+opencv-python-headless>=4.10,<6
+Pillow>=11,<13
+numpy>=2,<3
+pydantic>=2.10,<3
+PyYAML>=6,<7
+tesserocr>=2.9,<3
+huggingface-hub>=0.34,<2
+sentence-transformers>=5,<7
+torch>=2.6,<3
+scikit-learn>=1.6,<2
+pytest>=8,<10

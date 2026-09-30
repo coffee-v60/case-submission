@@ -1,0 +1,6175 @@
+{
+  "summary": {
+    "structural": {
+      "passed": 269
+    },
+    "format": {
+      "passed": 207,
+      "warning": 8
+    },
+    "financial": {
+      "passed": 58,
+      "warning": 7
+    }
+  },
+  "checks": [
+    {
+      "group": "structural",
+      "rule": "summary_physical_pages",
+      "status": "passed",
+      "expected": [
+        5,
+        6,
+        7
+      ],
+      "observed": [
+        5,
+        6,
+        7
+      ],
+      "difference": null,
+      "confidence": 0.9480740000000001
+    },
+    {
+      "group": "structural",
+      "rule": "target_note_heading",
+      "status": "passed",
+      "expected": 11,
+      "observed": 11,
+      "difference": null,
+      "confidence": 0.885573
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.908998,
+      "row_id": "summary-p5-t1-r18"
+    },
+    {
+      "group": "financial",
+      "rule": "balance_total_sum",
+      "status": "passed",
+      "expected": 852149804,
+      "observed": 852149804,
+      "difference": 0,
+      "confidence": 0.8622783333333334,
+      "row_id": "summary-p5-t1-r18",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p5-t1-r2",
+        "summary-p5-t1-r10"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "balance_total_sum",
+      "status": "passed",
+      "expected": 781408277,
+      "observed": 781408277,
+      "difference": 0,
+      "confidence": 0.9723316666666667,
+      "row_id": "summary-p5-t1-r18",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p5-t1-r2",
+        "summary-p5-t1-r10"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "unique_row_ids",
+      "status": "passed",
+      "expected": 18,
+      "observed": 18,
+      "difference": null,
+      "confidence": 0.956782,
+      "table_id": "summary-p5-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_order_preserved",
+      "status": "passed",
+      "expected": [
+        "2012",
+        "2011"
+      ],
+      "observed": [
+        "2012",
+        "2011"
+      ],
+      "difference": null,
+      "confidence": 0.956782,
+      "table_id": "summary-p5-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_columns",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.956782,
+      "table_id": "summary-p5-t1"
+    },
+    {
+      "group": "format",
+      "rule": "currency_preserved",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.956782,
+      "table_id": "summary-p5-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.609883,
+      "row_id": "summary-p5-t1-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.609883,
+      "row_id": "summary-p5-t1-r1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.53884,
+      "row_id": "summary-p5-t1-r1",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.53884,
+      "row_id": "summary-p5-t1-r1",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.974126,
+      "row_id": "summary-p5-t1-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.974126,
+      "row_id": "summary-p5-t1-r2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.961443,
+      "row_id": "summary-p5-t1-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.9718,
+      "row_id": "summary-p5-t1-r2",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 134557729,
+      "observed": 134557729,
+      "difference": 0,
+      "confidence": 0.9580271666666667,
+      "row_id": "summary-p5-t1-r2",
+      "column": "c1",
+      "component_ids": [
+        "summary-p5-t1-r3",
+        "summary-p5-t1-r4",
+        "summary-p5-t1-r7",
+        "summary-p5-t1-r8",
+        "summary-p5-t1-r9"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 21380946,
+      "observed": 21380946,
+      "difference": 0,
+      "confidence": 0.9308264999999999,
+      "row_id": "summary-p5-t1-r2",
+      "column": "c2",
+      "component_ids": [
+        "summary-p5-t1-r3",
+        "summary-p5-t1-r4",
+        "summary-p5-t1-r7",
+        "summary-p5-t1-r8",
+        "summary-p5-t1-r9"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.972958,
+      "row_id": "summary-p5-t1-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.972958,
+      "row_id": "summary-p5-t1-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.972958,
+      "row_id": "summary-p5-t1-r3"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97342,
+      "row_id": "summary-p5-t1-r3",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977169,
+      "row_id": "summary-p5-t1-r3",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.970941,
+      "row_id": "summary-p5-t1-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.970941,
+      "row_id": "summary-p5-t1-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.970941,
+      "row_id": "summary-p5-t1-r4"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975311,
+      "row_id": "summary-p5-t1-r4",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979116,
+      "row_id": "summary-p5-t1-r4",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 6281458,
+      "observed": 6281458,
+      "difference": 0,
+      "confidence": 0.9784043333333333,
+      "row_id": "summary-p5-t1-r4",
+      "column": "c1",
+      "component_ids": [
+        "summary-p5-t1-r5",
+        "summary-p5-t1-r6"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 7801336,
+      "observed": 7801336,
+      "difference": 0,
+      "confidence": 0.978783,
+      "row_id": "summary-p5-t1-r4",
+      "column": "c2",
+      "component_ids": [
+        "summary-p5-t1-r5",
+        "summary-p5-t1-r6"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.965212,
+      "row_id": "summary-p5-t1-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.965212,
+      "row_id": "summary-p5-t1-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.965212,
+      "row_id": "summary-p5-t1-r5"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978868,
+      "row_id": "summary-p5-t1-r5",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979079,
+      "row_id": "summary-p5-t1-r5",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.978599,
+      "row_id": "summary-p5-t1-r6"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.978599,
+      "row_id": "summary-p5-t1-r6"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.981034,
+      "row_id": "summary-p5-t1-r6",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978154,
+      "row_id": "summary-p5-t1-r6",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.975235,
+      "row_id": "summary-p5-t1-r7"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975235,
+      "row_id": "summary-p5-t1-r7"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.975235,
+      "row_id": "summary-p5-t1-r7"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976903,
+      "row_id": "summary-p5-t1-r7",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.982331,
+      "row_id": "summary-p5-t1-r7",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.930229,
+      "row_id": "summary-p5-t1-r8"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.930229,
+      "row_id": "summary-p5-t1-r8"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.930229,
+      "row_id": "summary-p5-t1-r8"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.884478,
+      "row_id": "summary-p5-t1-r8",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979411,
+      "row_id": "summary-p5-t1-r8",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.8874,
+      "row_id": "summary-p5-t1-r9"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.8874,
+      "row_id": "summary-p5-t1-r9"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.8874,
+      "row_id": "summary-p5-t1-r9"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976608,
+      "row_id": "summary-p5-t1-r9",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.695132,
+      "row_id": "summary-p5-t1-r9",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.970331,
+      "row_id": "summary-p5-t1-r10"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.970331,
+      "row_id": "summary-p5-t1-r10"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.972438,
+      "row_id": "summary-p5-t1-r10",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.969632,
+      "row_id": "summary-p5-t1-r10",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 717592075,
+      "observed": 717592075,
+      "difference": 0,
+      "confidence": 0.964541,
+      "row_id": "summary-p5-t1-r10",
+      "column": "c1",
+      "component_ids": [
+        "summary-p5-t1-r11",
+        "summary-p5-t1-r12",
+        "summary-p5-t1-r13",
+        "summary-p5-t1-r14",
+        "summary-p5-t1-r15",
+        "summary-p5-t1-r16",
+        "summary-p5-t1-r17"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "warning",
+      "expected": 760027331,
+      "observed": null,
+      "difference": null,
+      "confidence": 0.969632,
+      "row_id": "summary-p5-t1-r10",
+      "column": "c2",
+      "reason": "Non-numeric component; dash/blank not treated as zero"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.959482,
+      "row_id": "summary-p5-t1-r11"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.959482,
+      "row_id": "summary-p5-t1-r11"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.959482,
+      "row_id": "summary-p5-t1-r11"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.920126,
+      "row_id": "summary-p5-t1-r11",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97931,
+      "row_id": "summary-p5-t1-r11",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.942203,
+      "row_id": "summary-p5-t1-r12"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.942203,
+      "row_id": "summary-p5-t1-r12"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.942203,
+      "row_id": "summary-p5-t1-r12"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978353,
+      "row_id": "summary-p5-t1-r12",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.937279,
+      "row_id": "summary-p5-t1-r12",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.95684,
+      "row_id": "summary-p5-t1-r13"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.95684,
+      "row_id": "summary-p5-t1-r13"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.95684,
+      "row_id": "summary-p5-t1-r13"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.938076,
+      "row_id": "summary-p5-t1-r13",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.950524,
+      "row_id": "summary-p5-t1-r13",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.977448,
+      "row_id": "summary-p5-t1-r14"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977448,
+      "row_id": "summary-p5-t1-r14"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.977448,
+      "row_id": "summary-p5-t1-r14"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975502,
+      "row_id": "summary-p5-t1-r14",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978445,
+      "row_id": "summary-p5-t1-r14",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.98125,
+      "row_id": "summary-p5-t1-r15"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.98125,
+      "row_id": "summary-p5-t1-r15"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.98125,
+      "row_id": "summary-p5-t1-r15"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978965,
+      "row_id": "summary-p5-t1-r15",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97696,
+      "row_id": "summary-p5-t1-r15",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.976845,
+      "row_id": "summary-p5-t1-r16"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976845,
+      "row_id": "summary-p5-t1-r16"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.976845,
+      "row_id": "summary-p5-t1-r16"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974785,
+      "row_id": "summary-p5-t1-r16",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.973763,
+      "row_id": "summary-p5-t1-r16",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.97836,
+      "row_id": "summary-p5-t1-r17"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97836,
+      "row_id": "summary-p5-t1-r17"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.97836,
+      "row_id": "summary-p5-t1-r17"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978083,
+      "row_id": "summary-p5-t1-r17",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976169,
+      "row_id": "summary-p5-t1-r17",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.908998,
+      "row_id": "summary-p5-t1-r18"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.908998,
+      "row_id": "summary-p5-t1-r18"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.652954,
+      "row_id": "summary-p5-t1-r18",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "ocr_numeric_agreement",
+      "status": "warning",
+      "expected": 1,
+      "observed": 0.6666666666666666,
+      "difference": null,
+      "confidence": 0.652954,
+      "row_id": "summary-p5-t1-r18",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975563,
+      "row_id": "summary-p5-t1-r18",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.940165,
+      "row_id": "summary-p6-t1-r19"
+    },
+    {
+      "group": "financial",
+      "rule": "equity_sum",
+      "status": "passed",
+      "expected": 652445082,
+      "observed": 652445082,
+      "difference": 0,
+      "confidence": 0.8686332222222223,
+      "row_id": "summary-p6-t1-r19",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p6-t1-r20",
+        "summary-p6-t1-r28"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "equity_sum",
+      "status": "passed",
+      "expected": 619579720,
+      "observed": 619579720,
+      "difference": 0,
+      "confidence": 0.9798123333333333,
+      "row_id": "summary-p6-t1-r19",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p6-t1-r20",
+        "summary-p6-t1-r28"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.903594,
+      "row_id": "summary-p6-t1-r29"
+    },
+    {
+      "group": "financial",
+      "rule": "balance_total_sum",
+      "status": "passed",
+      "expected": 852149804,
+      "observed": 852149804,
+      "difference": 0,
+      "confidence": 0.9472595,
+      "row_id": "summary-p6-t1-r29",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p6-t1-r2",
+        "summary-p6-t1-r14",
+        "summary-p6-t1-r19"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "balance_total_sum",
+      "status": "passed",
+      "expected": 781408277,
+      "observed": 781408277,
+      "difference": 0,
+      "confidence": 0.94091675,
+      "row_id": "summary-p6-t1-r29",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p6-t1-r2",
+        "summary-p6-t1-r14",
+        "summary-p6-t1-r19"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "unique_row_ids",
+      "status": "passed",
+      "expected": 29,
+      "observed": 29,
+      "difference": null,
+      "confidence": 0.949828,
+      "table_id": "summary-p6-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_order_preserved",
+      "status": "passed",
+      "expected": [
+        "2012",
+        "2011"
+      ],
+      "observed": [
+        "2012",
+        "2011"
+      ],
+      "difference": null,
+      "confidence": 0.949828,
+      "table_id": "summary-p6-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_columns",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.949828,
+      "table_id": "summary-p6-t1"
+    },
+    {
+      "group": "format",
+      "rule": "currency_preserved",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.949828,
+      "table_id": "summary-p6-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.609929,
+      "row_id": "summary-p6-t1-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.609929,
+      "row_id": "summary-p6-t1-r1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.537968,
+      "row_id": "summary-p6-t1-r1",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.537968,
+      "row_id": "summary-p6-t1-r1",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.968391,
+      "row_id": "summary-p6-t1-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.968391,
+      "row_id": "summary-p6-t1-r2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974881,
+      "row_id": "summary-p6-t1-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977365,
+      "row_id": "summary-p6-t1-r2",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "warning",
+      "expected": 63553798,
+      "observed": null,
+      "difference": null,
+      "confidence": 0.974881,
+      "row_id": "summary-p6-t1-r2",
+      "column": "c1",
+      "reason": "Non-numeric component; dash/blank not treated as zero"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "warning",
+      "expected": 107356816,
+      "observed": null,
+      "difference": null,
+      "confidence": 0.977365,
+      "row_id": "summary-p6-t1-r2",
+      "column": "c2",
+      "reason": "Non-numeric component; dash/blank not treated as zero"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.956864,
+      "row_id": "summary-p6-t1-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.956864,
+      "row_id": "summary-p6-t1-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.956864,
+      "row_id": "summary-p6-t1-r3"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976814,
+      "row_id": "summary-p6-t1-r3",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.944752,
+      "row_id": "summary-p6-t1-r3",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.958501,
+      "row_id": "summary-p6-t1-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.958501,
+      "row_id": "summary-p6-t1-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.958501,
+      "row_id": "summary-p6-t1-r4"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.959665,
+      "row_id": "summary-p6-t1-r4",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.970045,
+      "row_id": "summary-p6-t1-r4",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 7932336,
+      "observed": 7932336,
+      "difference": 0,
+      "confidence": 0.961319,
+      "row_id": "summary-p6-t1-r4",
+      "column": "c1",
+      "component_ids": [
+        "summary-p6-t1-r5",
+        "summary-p6-t1-r6"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "warning",
+      "expected": 4232740,
+      "observed": null,
+      "difference": null,
+      "confidence": 0.970045,
+      "row_id": "summary-p6-t1-r4",
+      "column": "c2",
+      "reason": "Non-numeric component; dash/blank not treated as zero"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.840748,
+      "row_id": "summary-p6-t1-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.840748,
+      "row_id": "summary-p6-t1-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.840748,
+      "row_id": "summary-p6-t1-r5"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.951039,
+      "row_id": "summary-p6-t1-r5",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.948699,
+      "row_id": "summary-p6-t1-r5",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.958865,
+      "row_id": "summary-p6-t1-r6"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.958865,
+      "row_id": "summary-p6-t1-r6"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.973253,
+      "row_id": "summary-p6-t1-r6",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97974,
+      "row_id": "summary-p6-t1-r6",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.964948,
+      "row_id": "summary-p6-t1-r7"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.964948,
+      "row_id": "summary-p6-t1-r7"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.964948,
+      "row_id": "summary-p6-t1-r7"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.972529,
+      "row_id": "summary-p6-t1-r7",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.971275,
+      "row_id": "summary-p6-t1-r7",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 2784832,
+      "observed": 2784832,
+      "difference": 0,
+      "confidence": 0.9706100000000001,
+      "row_id": "summary-p6-t1-r7",
+      "column": "c1",
+      "component_ids": [
+        "summary-p6-t1-r8",
+        "summary-p6-t1-r9"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 3244930,
+      "observed": 3244930,
+      "difference": 0,
+      "confidence": 0.9706563333333333,
+      "row_id": "summary-p6-t1-r7",
+      "column": "c2",
+      "component_ids": [
+        "summary-p6-t1-r8",
+        "summary-p6-t1-r9"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.940981,
+      "row_id": "summary-p6-t1-r8"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.940981,
+      "row_id": "summary-p6-t1-r8"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.940981,
+      "row_id": "summary-p6-t1-r8"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.971374,
+      "row_id": "summary-p6-t1-r8",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963036,
+      "row_id": "summary-p6-t1-r8",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.939415,
+      "row_id": "summary-p6-t1-r9"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.939415,
+      "row_id": "summary-p6-t1-r9"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.967927,
+      "row_id": "summary-p6-t1-r9",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977658,
+      "row_id": "summary-p6-t1-r9",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.949944,
+      "row_id": "summary-p6-t1-r10"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.949944,
+      "row_id": "summary-p6-t1-r10"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.949944,
+      "row_id": "summary-p6-t1-r10"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.954204,
+      "row_id": "summary-p6-t1-r10",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.973807,
+      "row_id": "summary-p6-t1-r10",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.930364,
+      "row_id": "summary-p6-t1-r11"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.930364,
+      "row_id": "summary-p6-t1-r11"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.930364,
+      "row_id": "summary-p6-t1-r11"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977241,
+      "row_id": "summary-p6-t1-r11",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.950238,
+      "row_id": "summary-p6-t1-r11",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.956904,
+      "row_id": "summary-p6-t1-r12"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.956904,
+      "row_id": "summary-p6-t1-r12"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.956904,
+      "row_id": "summary-p6-t1-r12"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977041,
+      "row_id": "summary-p6-t1-r12",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979854,
+      "row_id": "summary-p6-t1-r12",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.902211,
+      "row_id": "summary-p6-t1-r13"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.902211,
+      "row_id": "summary-p6-t1-r13"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.902211,
+      "row_id": "summary-p6-t1-r13"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976801,
+      "row_id": "summary-p6-t1-r13",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.6354259999999999,
+      "row_id": "summary-p6-t1-r13",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "ocr_numeric_agreement",
+      "status": "warning",
+      "expected": 1,
+      "observed": 0.6666666666666666,
+      "difference": null,
+      "confidence": 0.6354259999999999,
+      "row_id": "summary-p6-t1-r13",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.957642,
+      "row_id": "summary-p6-t1-r14"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.957642,
+      "row_id": "summary-p6-t1-r14"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975264,
+      "row_id": "summary-p6-t1-r14",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.940657,
+      "row_id": "summary-p6-t1-r14",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 136150924,
+      "observed": 136150924,
+      "difference": 0,
+      "confidence": 0.9720405999999999,
+      "row_id": "summary-p6-t1-r14",
+      "column": "c1",
+      "component_ids": [
+        "summary-p6-t1-r15",
+        "summary-p6-t1-r16",
+        "summary-p6-t1-r17",
+        "summary-p6-t1-r18"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "warning",
+      "expected": 54471741,
+      "observed": null,
+      "difference": null,
+      "confidence": 0.940657,
+      "row_id": "summary-p6-t1-r14",
+      "column": "c2",
+      "reason": "Non-numeric component; dash/blank not treated as zero"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.944492,
+      "row_id": "summary-p6-t1-r15"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.944492,
+      "row_id": "summary-p6-t1-r15"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.944492,
+      "row_id": "summary-p6-t1-r15"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.951354,
+      "row_id": "summary-p6-t1-r15",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.971214,
+      "row_id": "summary-p6-t1-r15",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.957584,
+      "row_id": "summary-p6-t1-r16"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.957584,
+      "row_id": "summary-p6-t1-r16"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.957584,
+      "row_id": "summary-p6-t1-r16"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978023,
+      "row_id": "summary-p6-t1-r16",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.959111,
+      "row_id": "summary-p6-t1-r16",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.963553,
+      "row_id": "summary-p6-t1-r17"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963553,
+      "row_id": "summary-p6-t1-r17"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.963553,
+      "row_id": "summary-p6-t1-r17"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979488,
+      "row_id": "summary-p6-t1-r17",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.981355,
+      "row_id": "summary-p6-t1-r17",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.969402,
+      "row_id": "summary-p6-t1-r18"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.969402,
+      "row_id": "summary-p6-t1-r18"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.969402,
+      "row_id": "summary-p6-t1-r18"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976074,
+      "row_id": "summary-p6-t1-r18",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975059,
+      "row_id": "summary-p6-t1-r18",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.940165,
+      "row_id": "summary-p6-t1-r19"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.940165,
+      "row_id": "summary-p6-t1-r19"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978055,
+      "row_id": "summary-p6-t1-r19",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979019,
+      "row_id": "summary-p6-t1-r19",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.888424,
+      "row_id": "summary-p6-t1-r20"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.888424,
+      "row_id": "summary-p6-t1-r20"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.6467086666666666,
+      "row_id": "summary-p6-t1-r20",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "ocr_numeric_agreement",
+      "status": "warning",
+      "expected": 1,
+      "observed": 0.6666666666666666,
+      "difference": null,
+      "confidence": 0.6467086666666666,
+      "row_id": "summary-p6-t1-r20",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978005,
+      "row_id": "summary-p6-t1-r20",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "passed",
+      "expected": 527217933,
+      "observed": 527217933,
+      "difference": 0,
+      "confidence": 0.9230919583333335,
+      "row_id": "summary-p6-t1-r20",
+      "column": "c1",
+      "component_ids": [
+        "summary-p6-t1-r21",
+        "summary-p6-t1-r22",
+        "summary-p6-t1-r23",
+        "summary-p6-t1-r24",
+        "summary-p6-t1-r25",
+        "summary-p6-t1-r26",
+        "summary-p6-t1-r27"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "hierarchy_subtotal",
+      "status": "warning",
+      "expected": 492663853,
+      "observed": null,
+      "difference": null,
+      "confidence": 0.978005,
+      "row_id": "summary-p6-t1-r20",
+      "column": "c2",
+      "reason": "Non-numeric component; dash/blank not treated as zero"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.966127,
+      "row_id": "summary-p6-t1-r21"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.966127,
+      "row_id": "summary-p6-t1-r21"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.966127,
+      "row_id": "summary-p6-t1-r21"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979285,
+      "row_id": "summary-p6-t1-r21",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974867,
+      "row_id": "summary-p6-t1-r21",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.94502,
+      "row_id": "summary-p6-t1-r22"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.94502,
+      "row_id": "summary-p6-t1-r22"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974987,
+      "row_id": "summary-p6-t1-r22",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.956434,
+      "row_id": "summary-p6-t1-r22",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.948624,
+      "row_id": "summary-p6-t1-r23"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.948624,
+      "row_id": "summary-p6-t1-r23"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.920795,
+      "row_id": "summary-p6-t1-r23",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.966786,
+      "row_id": "summary-p6-t1-r23",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.957801,
+      "row_id": "summary-p6-t1-r24"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.957801,
+      "row_id": "summary-p6-t1-r24"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.937611,
+      "row_id": "summary-p6-t1-r24",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97868,
+      "row_id": "summary-p6-t1-r24",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.965803,
+      "row_id": "summary-p6-t1-r25"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.965803,
+      "row_id": "summary-p6-t1-r25"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.970003,
+      "row_id": "summary-p6-t1-r25",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.9826,
+      "row_id": "summary-p6-t1-r25",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.960202,
+      "row_id": "summary-p6-t1-r26"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.960202,
+      "row_id": "summary-p6-t1-r26"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977837,
+      "row_id": "summary-p6-t1-r26",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.95018,
+      "row_id": "summary-p6-t1-r26",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.970119,
+      "row_id": "summary-p6-t1-r27"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.970119,
+      "row_id": "summary-p6-t1-r27"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977509,
+      "row_id": "summary-p6-t1-r27",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.981462,
+      "row_id": "summary-p6-t1-r27",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.975231,
+      "row_id": "summary-p6-t1-r28"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.975231,
+      "row_id": "summary-p6-t1-r28"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.981136,
+      "row_id": "summary-p6-t1-r28",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.982413,
+      "row_id": "summary-p6-t1-r28",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.903594,
+      "row_id": "summary-p6-t1-r29"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.903594,
+      "row_id": "summary-p6-t1-r29"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.860838,
+      "row_id": "summary-p6-t1-r29",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.866626,
+      "row_id": "summary-p6-t1-r29",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.944424,
+      "row_id": "summary-p7-t1-r3"
+    },
+    {
+      "group": "financial",
+      "rule": "gross_profit_sum",
+      "status": "passed",
+      "expected": 27876243,
+      "observed": 27876243,
+      "difference": 0,
+      "confidence": 0.9525673333333334,
+      "row_id": "summary-p7-t1-r3",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r1",
+        "summary-p7-t1-r2"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "gross_profit_sum",
+      "status": "passed",
+      "expected": 32019756,
+      "observed": 32019756,
+      "difference": 0,
+      "confidence": 0.960374,
+      "row_id": "summary-p7-t1-r3",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r1",
+        "summary-p7-t1-r2"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.942322,
+      "row_id": "summary-p7-t1-r9"
+    },
+    {
+      "group": "financial",
+      "rule": "operating_profit_sum",
+      "status": "passed",
+      "expected": 7987391,
+      "observed": 7987391,
+      "difference": 0,
+      "confidence": 0.9680752857142857,
+      "row_id": "summary-p7-t1-r9",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r3",
+        "summary-p7-t1-r4",
+        "summary-p7-t1-r5",
+        "summary-p7-t1-r6",
+        "summary-p7-t1-r7",
+        "summary-p7-t1-r8"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric",
+        "numeric",
+        "numeric",
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "operating_profit_sum",
+      "status": "passed",
+      "expected": 175424053,
+      "observed": 175424053,
+      "difference": 0,
+      "confidence": 0.9575082857142857,
+      "row_id": "summary-p7-t1-r9",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r3",
+        "summary-p7-t1-r4",
+        "summary-p7-t1-r5",
+        "summary-p7-t1-r6",
+        "summary-p7-t1-r7",
+        "summary-p7-t1-r8"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric",
+        "numeric",
+        "numeric",
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.841513,
+      "row_id": "summary-p7-t1-r13"
+    },
+    {
+      "group": "financial",
+      "rule": "pretax_profit_sum",
+      "status": "passed",
+      "expected": 11497173,
+      "observed": 11497173,
+      "difference": 0,
+      "confidence": 0.8606873333333332,
+      "row_id": "summary-p7-t1-r13",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r9",
+        "summary-p7-t1-r10",
+        "summary-p7-t1-r11",
+        "summary-p7-t1-r12"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric",
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "pretax_profit_sum",
+      "status": "warning",
+      "expected": 164929656,
+      "observed": null,
+      "difference": null,
+      "confidence": 0.9480221999999999,
+      "row_id": "summary-p7-t1-r13",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r9",
+        "summary-p7-t1-r10",
+        "summary-p7-t1-r11",
+        "summary-p7-t1-r12"
+      ],
+      "component_states": [
+        "numeric",
+        "dash",
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963097,
+      "row_id": "summary-p7-t1-r14"
+    },
+    {
+      "group": "financial",
+      "rule": "income_tax_sum",
+      "status": "passed",
+      "expected": -778217,
+      "observed": -778217,
+      "difference": 0,
+      "confidence": 0.978418,
+      "row_id": "summary-p7-t1-r14",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r15",
+        "summary-p7-t1-r16"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "income_tax_sum",
+      "status": "passed",
+      "expected": -3015405,
+      "observed": -3015405,
+      "difference": 0,
+      "confidence": 0.9642179999999999,
+      "row_id": "summary-p7-t1-r14",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r15",
+        "summary-p7-t1-r16"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.934029,
+      "row_id": "summary-p7-t1-r17"
+    },
+    {
+      "group": "financial",
+      "rule": "net_profit_sum",
+      "status": "passed",
+      "expected": 10718956,
+      "observed": 10718956,
+      "difference": 0,
+      "confidence": 0.8375205555555555,
+      "row_id": "summary-p7-t1-r17",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r13",
+        "summary-p7-t1-r14"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "net_profit_sum",
+      "status": "passed",
+      "expected": 161914251,
+      "observed": 161914251,
+      "difference": 0,
+      "confidence": 0.922453,
+      "row_id": "summary-p7-t1-r17",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r13",
+        "summary-p7-t1-r14"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.85818,
+      "row_id": "summary-p7-t1-r21"
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_sum",
+      "status": "passed",
+      "expected": 10718956,
+      "observed": 10718956,
+      "difference": 0,
+      "confidence": 0.95919,
+      "row_id": "summary-p7-t1-r21",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r19",
+        "summary-p7-t1-r20"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_sum",
+      "status": "passed",
+      "expected": 161914251,
+      "observed": 161914251,
+      "difference": 0,
+      "confidence": 0.9745456666666668,
+      "row_id": "summary-p7-t1-r21",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r19",
+        "summary-p7-t1-r20"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_matches_statement_total",
+      "status": "passed",
+      "expected": 10718956,
+      "observed": 10718956,
+      "difference": 0,
+      "confidence": 0.9578185,
+      "row_id": "summary-p7-t1-r21",
+      "target_row_id": "summary-p7-t1-r17",
+      "period": "2012"
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_matches_statement_total",
+      "status": "passed",
+      "expected": 161914251,
+      "observed": 161914251,
+      "difference": 0,
+      "confidence": 0.943702,
+      "row_id": "summary-p7-t1-r21",
+      "target_row_id": "summary-p7-t1-r17",
+      "period": "2011"
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.952542,
+      "row_id": "summary-p7-t1-r23"
+    },
+    {
+      "group": "financial",
+      "rule": "other_comprehensive_income_sum",
+      "status": "passed",
+      "expected": -19846865,
+      "observed": -19846865,
+      "difference": 0,
+      "confidence": 0.9699465,
+      "row_id": "summary-p7-t1-r23",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r24"
+      ],
+      "component_states": [
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "other_comprehensive_income_sum",
+      "status": "passed",
+      "expected": 196292383,
+      "observed": 196292383,
+      "difference": 0,
+      "confidence": 0.940411,
+      "row_id": "summary-p7-t1-r23",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r24"
+      ],
+      "component_states": [
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.954838,
+      "row_id": "summary-p7-t1-r25"
+    },
+    {
+      "group": "financial",
+      "rule": "comprehensive_income_sum",
+      "status": "passed",
+      "expected": -9127909,
+      "observed": -9127909,
+      "difference": 0,
+      "confidence": 0.9636726666666666,
+      "row_id": "summary-p7-t1-r25",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r17",
+        "summary-p7-t1-r23"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "comprehensive_income_sum",
+      "status": "passed",
+      "expected": 358206634,
+      "observed": 358206634,
+      "difference": 0,
+      "confidence": 0.9322086666666666,
+      "row_id": "summary-p7-t1-r25",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r17",
+        "summary-p7-t1-r23"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "structural",
+      "rule": "aggregation_references",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.798287,
+      "row_id": "summary-p7-t1-r29"
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_sum",
+      "status": "passed",
+      "expected": -9127909,
+      "observed": -9127909,
+      "difference": 0,
+      "confidence": 0.9484526666666667,
+      "row_id": "summary-p7-t1-r29",
+      "column": "c1",
+      "period": "2012",
+      "component_ids": [
+        "summary-p7-t1-r27",
+        "summary-p7-t1-r28"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_sum",
+      "status": "passed",
+      "expected": 358206634,
+      "observed": 358206634,
+      "difference": 0,
+      "confidence": 0.9046233333333333,
+      "row_id": "summary-p7-t1-r29",
+      "column": "c2",
+      "period": "2011",
+      "component_ids": [
+        "summary-p7-t1-r27",
+        "summary-p7-t1-r28"
+      ],
+      "component_states": [
+        "numeric",
+        "numeric"
+      ]
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_matches_statement_total",
+      "status": "passed",
+      "expected": -9127909,
+      "observed": -9127909,
+      "difference": 0,
+      "confidence": 0.9497725,
+      "row_id": "summary-p7-t1-r29",
+      "target_row_id": "summary-p7-t1-r25",
+      "period": "2012"
+    },
+    {
+      "group": "financial",
+      "rule": "distribution_matches_statement_total",
+      "status": "passed",
+      "expected": 358206634,
+      "observed": 358206634,
+      "difference": 0,
+      "confidence": 0.9029465,
+      "row_id": "summary-p7-t1-r29",
+      "target_row_id": "summary-p7-t1-r25",
+      "period": "2011"
+    },
+    {
+      "group": "structural",
+      "rule": "unique_row_ids",
+      "status": "passed",
+      "expected": 29,
+      "observed": 29,
+      "difference": null,
+      "confidence": 0.937612,
+      "table_id": "summary-p7-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_order_preserved",
+      "status": "passed",
+      "expected": [
+        "2012",
+        "2011"
+      ],
+      "observed": [
+        "2012",
+        "2011"
+      ],
+      "difference": null,
+      "confidence": 0.937612,
+      "table_id": "summary-p7-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_columns",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.937612,
+      "table_id": "summary-p7-t1"
+    },
+    {
+      "group": "format",
+      "rule": "currency_preserved",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.937612,
+      "table_id": "summary-p7-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.943217,
+      "row_id": "summary-p7-t1-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.943217,
+      "row_id": "summary-p7-t1-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.943217,
+      "row_id": "summary-p7-t1-r1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.917255,
+      "row_id": "summary-p7-t1-r1",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.95914,
+      "row_id": "summary-p7-t1-r1",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.958348,
+      "row_id": "summary-p7-t1-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.958348,
+      "row_id": "summary-p7-t1-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.958348,
+      "row_id": "summary-p7-t1-r2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979726,
+      "row_id": "summary-p7-t1-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.960201,
+      "row_id": "summary-p7-t1-r2",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.944424,
+      "row_id": "summary-p7-t1-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.944424,
+      "row_id": "summary-p7-t1-r3"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.960721,
+      "row_id": "summary-p7-t1-r3",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.961781,
+      "row_id": "summary-p7-t1-r3",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.952153,
+      "row_id": "summary-p7-t1-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.952153,
+      "row_id": "summary-p7-t1-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.952153,
+      "row_id": "summary-p7-t1-r4"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976867,
+      "row_id": "summary-p7-t1-r4",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.932932,
+      "row_id": "summary-p7-t1-r4",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.958545,
+      "row_id": "summary-p7-t1-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.958545,
+      "row_id": "summary-p7-t1-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.958545,
+      "row_id": "summary-p7-t1-r5"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977297,
+      "row_id": "summary-p7-t1-r5",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.950096,
+      "row_id": "summary-p7-t1-r5",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.963787,
+      "row_id": "summary-p7-t1-r6"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963787,
+      "row_id": "summary-p7-t1-r6"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.963787,
+      "row_id": "summary-p7-t1-r6"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963917,
+      "row_id": "summary-p7-t1-r6",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.960592,
+      "row_id": "summary-p7-t1-r6",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.950442,
+      "row_id": "summary-p7-t1-r7"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.950442,
+      "row_id": "summary-p7-t1-r7"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.950442,
+      "row_id": "summary-p7-t1-r7"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.962723,
+      "row_id": "summary-p7-t1-r7",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.981585,
+      "row_id": "summary-p7-t1-r7",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.955764,
+      "row_id": "summary-p7-t1-r8"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.955764,
+      "row_id": "summary-p7-t1-r8"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.955764,
+      "row_id": "summary-p7-t1-r8"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97228,
+      "row_id": "summary-p7-t1-r8",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.961621,
+      "row_id": "summary-p7-t1-r8",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.942322,
+      "row_id": "summary-p7-t1-r9"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.942322,
+      "row_id": "summary-p7-t1-r9"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.962722,
+      "row_id": "summary-p7-t1-r9",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.953951,
+      "row_id": "summary-p7-t1-r9",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.944289,
+      "row_id": "summary-p7-t1-r10"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.944289,
+      "row_id": "summary-p7-t1-r10"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.944289,
+      "row_id": "summary-p7-t1-r10"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.959261,
+      "row_id": "summary-p7-t1-r10",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.96104,
+      "row_id": "summary-p7-t1-r10",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.958645,
+      "row_id": "summary-p7-t1-r11"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.958645,
+      "row_id": "summary-p7-t1-r11"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.958645,
+      "row_id": "summary-p7-t1-r11"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.945056,
+      "row_id": "summary-p7-t1-r11",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.966602,
+      "row_id": "summary-p7-t1-r11",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.92855,
+      "row_id": "summary-p7-t1-r12"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.92855,
+      "row_id": "summary-p7-t1-r12"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.92855,
+      "row_id": "summary-p7-t1-r12"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.857539,
+      "row_id": "summary-p7-t1-r12",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.960682,
+      "row_id": "summary-p7-t1-r12",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.841513,
+      "row_id": "summary-p7-t1-r13"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.841513,
+      "row_id": "summary-p7-t1-r13"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.5788586666666666,
+      "row_id": "summary-p7-t1-r13",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "ocr_numeric_agreement",
+      "status": "warning",
+      "expected": 1,
+      "observed": 0.6666666666666666,
+      "difference": null,
+      "confidence": 0.5788586666666666,
+      "row_id": "summary-p7-t1-r13",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.897836,
+      "row_id": "summary-p7-t1-r13",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.963097,
+      "row_id": "summary-p7-t1-r14"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.963097,
+      "row_id": "summary-p7-t1-r14"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974936,
+      "row_id": "summary-p7-t1-r14",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.957062,
+      "row_id": "summary-p7-t1-r14",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.966594,
+      "row_id": "summary-p7-t1-r15"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.966594,
+      "row_id": "summary-p7-t1-r15"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.966594,
+      "row_id": "summary-p7-t1-r15"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979754,
+      "row_id": "summary-p7-t1-r15",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.961205,
+      "row_id": "summary-p7-t1-r15",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.969387,
+      "row_id": "summary-p7-t1-r16"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.969387,
+      "row_id": "summary-p7-t1-r16"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.969387,
+      "row_id": "summary-p7-t1-r16"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.980564,
+      "row_id": "summary-p7-t1-r16",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974387,
+      "row_id": "summary-p7-t1-r16",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.934029,
+      "row_id": "summary-p7-t1-r17"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.934029,
+      "row_id": "summary-p7-t1-r17"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.958767,
+      "row_id": "summary-p7-t1-r17",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.912461,
+      "row_id": "summary-p7-t1-r17",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.60872,
+      "row_id": "summary-p7-t1-r18"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.60872,
+      "row_id": "summary-p7-t1-r18"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.537704,
+      "row_id": "summary-p7-t1-r18",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.537704,
+      "row_id": "summary-p7-t1-r18",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.967402,
+      "row_id": "summary-p7-t1-r19"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.967402,
+      "row_id": "summary-p7-t1-r19"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963198,
+      "row_id": "summary-p7-t1-r19",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974977,
+      "row_id": "summary-p7-t1-r19",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.959139,
+      "row_id": "summary-p7-t1-r20"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.959139,
+      "row_id": "summary-p7-t1-r20"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.957502,
+      "row_id": "summary-p7-t1-r20",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.973717,
+      "row_id": "summary-p7-t1-r20",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.85818,
+      "row_id": "summary-p7-t1-r21"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.85818,
+      "row_id": "summary-p7-t1-r21"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.95687,
+      "row_id": "summary-p7-t1-r21",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974943,
+      "row_id": "summary-p7-t1-r21",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.965046,
+      "row_id": "summary-p7-t1-r22"
+    },
+    {
+      "group": "structural",
+      "rule": "note_reference_row_alignment",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.965046,
+      "row_id": "summary-p7-t1-r22"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.965046,
+      "row_id": "summary-p7-t1-r22"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963614,
+      "row_id": "summary-p7-t1-r22",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975959,
+      "row_id": "summary-p7-t1-r22",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.952542,
+      "row_id": "summary-p7-t1-r23"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.952542,
+      "row_id": "summary-p7-t1-r23"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.980998,
+      "row_id": "summary-p7-t1-r23",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.90439,
+      "row_id": "summary-p7-t1-r23",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.965044,
+      "row_id": "summary-p7-t1-r24"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.965044,
+      "row_id": "summary-p7-t1-r24"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.958895,
+      "row_id": "summary-p7-t1-r24",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976432,
+      "row_id": "summary-p7-t1-r24",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.954838,
+      "row_id": "summary-p7-t1-r25"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.954838,
+      "row_id": "summary-p7-t1-r25"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.951253,
+      "row_id": "summary-p7-t1-r25",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979775,
+      "row_id": "summary-p7-t1-r25",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.604207,
+      "row_id": "summary-p7-t1-r26"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.604207,
+      "row_id": "summary-p7-t1-r26"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.537704,
+      "row_id": "summary-p7-t1-r26",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.537704,
+      "row_id": "summary-p7-t1-r26",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.962026,
+      "row_id": "summary-p7-t1-r27"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.962026,
+      "row_id": "summary-p7-t1-r27"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977598,
+      "row_id": "summary-p7-t1-r27",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.973781,
+      "row_id": "summary-p7-t1-r27",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.930645,
+      "row_id": "summary-p7-t1-r28"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.930645,
+      "row_id": "summary-p7-t1-r28"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.919468,
+      "row_id": "summary-p7-t1-r28",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.913971,
+      "row_id": "summary-p7-t1-r28",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 7,
+      "observed": 7,
+      "difference": null,
+      "confidence": 0.798287,
+      "row_id": "summary-p7-t1-r29"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.798287,
+      "row_id": "summary-p7-t1-r29"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.948292,
+      "row_id": "summary-p7-t1-r29",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.826118,
+      "row_id": "summary-p7-t1-r29",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "unique_row_ids",
+      "status": "passed",
+      "expected": 6,
+      "observed": 6,
+      "difference": null,
+      "confidence": 0.776338,
+      "table_id": "note-p53-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_columns",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.776338,
+      "table_id": "note-p53-t1"
+    },
+    {
+      "group": "format",
+      "rule": "currency_preserved",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.776338,
+      "table_id": "note-p53-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.971736,
+      "row_id": "note-p53-t1-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.971736,
+      "row_id": "note-p53-t1-r1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.961698,
+      "row_id": "note-p53-t1-r1",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979206,
+      "row_id": "note-p53-t1-r1",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.979464,
+      "row_id": "note-p53-t1-r1",
+      "column": "c3"
+    },
+    {
+      "group": "financial",
+      "rule": "note_components_sum_to_total",
+      "status": "passed",
+      "expected": 423580000,
+      "observed": 423580000,
+      "difference": 0,
+      "confidence": 0.9734560000000001,
+      "row_id": "note-p53-t1-r1",
+      "components": [
+        227317822,
+        196262178
+      ],
+      "period": "2012",
+      "independent_of_ocr_selection": true
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.948076,
+      "row_id": "note-p53-t1-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.948076,
+      "row_id": "note-p53-t1-r2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.947219,
+      "row_id": "note-p53-t1-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.957757,
+      "row_id": "note-p53-t1-r2",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.972299,
+      "row_id": "note-p53-t1-r2",
+      "column": "c3"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.961963,
+      "row_id": "note-p53-t1-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.961963,
+      "row_id": "note-p53-t1-r3"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.980195,
+      "row_id": "note-p53-t1-r3",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.957119,
+      "row_id": "note-p53-t1-r3",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.980743,
+      "row_id": "note-p53-t1-r3",
+      "column": "c3"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.879022,
+      "row_id": "note-p53-t1-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.879022,
+      "row_id": "note-p53-t1-r4"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963091,
+      "row_id": "note-p53-t1-r4",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.956915,
+      "row_id": "note-p53-t1-r4",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.627898,
+      "row_id": "note-p53-t1-r4",
+      "column": "c3"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.903704,
+      "row_id": "note-p53-t1-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.903704,
+      "row_id": "note-p53-t1-r5"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.811655,
+      "row_id": "note-p53-t1-r5",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.818939,
+      "row_id": "note-p53-t1-r5",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975207,
+      "row_id": "note-p53-t1-r5",
+      "column": "c3"
+    },
+    {
+      "group": "financial",
+      "rule": "note_components_sum_to_total",
+      "status": "passed",
+      "expected": 373992222,
+      "observed": 373992222,
+      "difference": 0,
+      "confidence": 0.8686003333333333,
+      "row_id": "note-p53-t1-r5",
+      "components": [
+        177730044,
+        196262178
+      ],
+      "period": "2012",
+      "independent_of_ocr_selection": true
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.932469,
+      "row_id": "note-p53-t1-r6"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.932469,
+      "row_id": "note-p53-t1-r6"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.816833,
+      "row_id": "note-p53-t1-r6",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.942673,
+      "row_id": "note-p53-t1-r6",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.97662,
+      "row_id": "note-p53-t1-r6",
+      "column": "c3"
+    },
+    {
+      "group": "financial",
+      "rule": "note_components_sum_to_total",
+      "status": "passed",
+      "expected": 373992222,
+      "observed": 373992222,
+      "difference": 0,
+      "confidence": 0.912042,
+      "row_id": "note-p53-t1-r6",
+      "components": [
+        177730044,
+        196262178
+      ],
+      "period": "2012",
+      "independent_of_ocr_selection": true
+    },
+    {
+      "group": "financial",
+      "rule": "note_movement_rollforward",
+      "status": "passed",
+      "expected": 177730044,
+      "observed": 177730044,
+      "difference": 0,
+      "confidence": 0.776338,
+      "row_id": "note-p53-t1-r5",
+      "column": "c1"
+    },
+    {
+      "group": "financial",
+      "rule": "note_movement_rollforward",
+      "status": "passed",
+      "expected": 373992222,
+      "observed": 373992222,
+      "difference": 0,
+      "confidence": 0.776338,
+      "row_id": "note-p53-t1-r5",
+      "column": "c3"
+    },
+    {
+      "group": "structural",
+      "rule": "unique_row_ids",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.748,
+      "table_id": "note-p53-t2"
+    },
+    {
+      "group": "structural",
+      "rule": "period_columns",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.748,
+      "table_id": "note-p53-t2"
+    },
+    {
+      "group": "format",
+      "rule": "currency_preserved",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.748,
+      "table_id": "note-p53-t2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.910606,
+      "row_id": "note-p53-t2-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.910606,
+      "row_id": "note-p53-t2-r1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974749,
+      "row_id": "note-p53-t2-r1",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.904693,
+      "row_id": "note-p53-t2-r1",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.849121,
+      "row_id": "note-p53-t2-r1",
+      "column": "c3"
+    },
+    {
+      "group": "financial",
+      "rule": "note_components_sum_to_total",
+      "status": "passed",
+      "expected": 205034968,
+      "observed": 205034968,
+      "difference": 0,
+      "confidence": 0.9095210000000001,
+      "row_id": "note-p53-t2-r1",
+      "components": [
+        82097790,
+        122937178
+      ],
+      "period": "2011",
+      "independent_of_ocr_selection": true
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.886351,
+      "row_id": "note-p53-t2-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.886351,
+      "row_id": "note-p53-t2-r2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.973604,
+      "row_id": "note-p53-t2-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977893,
+      "row_id": "note-p53-t2-r2",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.6357106666666666,
+      "row_id": "note-p53-t2-r2",
+      "column": "c3"
+    },
+    {
+      "group": "format",
+      "rule": "ocr_numeric_agreement",
+      "status": "warning",
+      "expected": 1,
+      "observed": 0.6666666666666666,
+      "difference": null,
+      "confidence": 0.6357106666666666,
+      "row_id": "note-p53-t2-r2",
+      "column": "c3"
+    },
+    {
+      "group": "financial",
+      "rule": "note_components_sum_to_total",
+      "status": "passed",
+      "expected": 77645032,
+      "observed": 77645032,
+      "difference": 0,
+      "confidence": 0.8624025555555556,
+      "row_id": "note-p53-t2-r2",
+      "components": [
+        64046943,
+        13598089
+      ],
+      "period": "2011",
+      "independent_of_ocr_selection": false
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.84923,
+      "row_id": "note-p53-t2-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.84923,
+      "row_id": "note-p53-t2-r3"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.953107,
+      "row_id": "note-p53-t2-r3",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.707344,
+      "row_id": "note-p53-t2-r3",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.844204,
+      "row_id": "note-p53-t2-r3",
+      "column": "c3"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.921539,
+      "row_id": "note-p53-t2-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.921539,
+      "row_id": "note-p53-t2-r4"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.654086,
+      "row_id": "note-p53-t2-r4",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "ocr_numeric_agreement",
+      "status": "warning",
+      "expected": 1,
+      "observed": 0.6666666666666666,
+      "difference": null,
+      "confidence": 0.654086,
+      "row_id": "note-p53-t2-r4",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.971144,
+      "row_id": "note-p53-t2-r4",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.977452,
+      "row_id": "note-p53-t2-r4",
+      "column": "c3"
+    },
+    {
+      "group": "financial",
+      "rule": "note_components_sum_to_total",
+      "status": "passed",
+      "expected": 151350000,
+      "observed": 151350000,
+      "difference": 0,
+      "confidence": 0.8675606666666665,
+      "row_id": "note-p53-t2-r4",
+      "components": [
+        81173089,
+        70176911
+      ],
+      "period": "2011",
+      "independent_of_ocr_selection": true
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 53,
+      "observed": 53,
+      "difference": null,
+      "confidence": 0.887431,
+      "row_id": "note-p53-t2-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.887431,
+      "row_id": "note-p53-t2-r5"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.805742,
+      "row_id": "note-p53-t2-r5",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.737109,
+      "row_id": "note-p53-t2-r5",
+      "column": "c2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.974128,
+      "row_id": "note-p53-t2-r5",
+      "column": "c3"
+    },
+    {
+      "group": "financial",
+      "rule": "note_components_sum_to_total",
+      "status": "passed",
+      "expected": 423580000,
+      "observed": 423580000,
+      "difference": 0,
+      "confidence": 0.838993,
+      "row_id": "note-p53-t2-r5",
+      "components": [
+        227317822,
+        196262178
+      ],
+      "period": "2011",
+      "independent_of_ocr_selection": true
+    },
+    {
+      "group": "financial",
+      "rule": "note_movement_rollforward",
+      "status": "passed",
+      "expected": 196262178,
+      "observed": 196262178,
+      "difference": 0,
+      "confidence": 0.748,
+      "row_id": "note-p53-t2-r5",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "note_movement_rollforward",
+      "status": "passed",
+      "expected": 423580000,
+      "observed": 423580000,
+      "difference": 0,
+      "confidence": 0.748,
+      "row_id": "note-p53-t2-r5",
+      "column": "c3"
+    },
+    {
+      "group": "structural",
+      "rule": "unique_row_ids",
+      "status": "passed",
+      "expected": 3,
+      "observed": 3,
+      "difference": null,
+      "confidence": 0.866573,
+      "table_id": "note-p54-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_order_preserved",
+      "status": "passed",
+      "expected": [
+        "2012",
+        "2011"
+      ],
+      "observed": [
+        "2012",
+        "2011"
+      ],
+      "difference": null,
+      "confidence": 0.866573,
+      "table_id": "note-p54-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "period_columns",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.866573,
+      "table_id": "note-p54-t1"
+    },
+    {
+      "group": "format",
+      "rule": "currency_preserved",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.866573,
+      "table_id": "note-p54-t1"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.89616,
+      "row_id": "note-p54-t1-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.89616,
+      "row_id": "note-p54-t1-r1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.896996,
+      "row_id": "note-p54-t1-r1",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.876202,
+      "row_id": "note-p54-t1-r1",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.849319,
+      "row_id": "note-p54-t1-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.849319,
+      "row_id": "note-p54-t1-r2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.568664,
+      "row_id": "note-p54-t1-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "ocr_numeric_agreement",
+      "status": "warning",
+      "expected": 1,
+      "observed": 0.6666666666666666,
+      "difference": null,
+      "confidence": 0.568664,
+      "row_id": "note-p54-t1-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.922242,
+      "row_id": "note-p54-t1-r2",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.716605,
+      "row_id": "note-p54-t1-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.716605,
+      "row_id": "note-p54-t1-r3"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.941479,
+      "row_id": "note-p54-t1-r3",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "warning",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.230708,
+      "row_id": "note-p54-t1-r3",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "unique_row_ids",
+      "status": "passed",
+      "expected": 5,
+      "observed": 5,
+      "difference": null,
+      "confidence": 0.95547,
+      "table_id": "note-p54-t2"
+    },
+    {
+      "group": "structural",
+      "rule": "period_order_preserved",
+      "status": "passed",
+      "expected": [
+        "2012",
+        "2011"
+      ],
+      "observed": [
+        "2012",
+        "2011"
+      ],
+      "difference": null,
+      "confidence": 0.95547,
+      "table_id": "note-p54-t2"
+    },
+    {
+      "group": "structural",
+      "rule": "period_columns",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.95547,
+      "table_id": "note-p54-t2"
+    },
+    {
+      "group": "format",
+      "rule": "currency_preserved",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.95547,
+      "table_id": "note-p54-t2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.970337,
+      "row_id": "note-p54-t2-r1"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.970337,
+      "row_id": "note-p54-t2-r1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.969828,
+      "row_id": "note-p54-t2-r1",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.980115,
+      "row_id": "note-p54-t2-r1",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.972268,
+      "row_id": "note-p54-t2-r2"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.972268,
+      "row_id": "note-p54-t2-r2"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978013,
+      "row_id": "note-p54-t2-r2",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975887,
+      "row_id": "note-p54-t2-r2",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.966079,
+      "row_id": "note-p54-t2-r3"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.966079,
+      "row_id": "note-p54-t2-r3"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978102,
+      "row_id": "note-p54-t2-r3",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.953056,
+      "row_id": "note-p54-t2-r3",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.96313,
+      "row_id": "note-p54-t2-r4"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.96313,
+      "row_id": "note-p54-t2-r4"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978995,
+      "row_id": "note-p54-t2-r4",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.978322,
+      "row_id": "note-p54-t2-r4",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "row_page_matches_table",
+      "status": "passed",
+      "expected": 54,
+      "observed": 54,
+      "difference": null,
+      "confidence": 0.862073,
+      "row_id": "note-p54-t2-r5"
+    },
+    {
+      "group": "structural",
+      "rule": "duplicate_row_geometry",
+      "status": "passed",
+      "expected": [],
+      "observed": [],
+      "difference": null,
+      "confidence": 0.862073,
+      "row_id": "note-p54-t2-r5"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.975498,
+      "row_id": "note-p54-t2-r5",
+      "column": "c1"
+    },
+    {
+      "group": "format",
+      "rule": "financial_value_state",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.976752,
+      "row_id": "note-p54-t2-r5",
+      "column": "c2"
+    },
+    {
+      "group": "financial",
+      "rule": "note_detail_sum",
+      "status": "passed",
+      "expected": 373992222,
+      "observed": 373992222,
+      "difference": 0,
+      "confidence": 0.95547,
+      "row_id": "note-p54-t2-r5",
+      "column": "c1"
+    },
+    {
+      "group": "financial",
+      "rule": "note_detail_sum",
+      "status": "passed",
+      "expected": 423580000,
+      "observed": 423580000,
+      "difference": 0,
+      "confidence": 0.95547,
+      "row_id": "note-p54-t2-r5",
+      "column": "c2"
+    },
+    {
+      "group": "structural",
+      "rule": "relationship_note_reference",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.95684,
+      "row_id": "summary-p5-t1-r13"
+    },
+    {
+      "group": "structural",
+      "rule": "relationship_within_note_section",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.76206,
+      "row_id": "summary-p5-t1-r13"
+    },
+    {
+      "group": "financial",
+      "rule": "summary_note_reconciliation",
+      "status": "passed",
+      "expected": 373992222,
+      "observed": 373992222,
+      "difference": 0,
+      "confidence": 0.76206,
+      "row_id": "summary-p5-t1-r13",
+      "period": "2012"
+    },
+    {
+      "group": "financial",
+      "rule": "summary_note_reconciliation",
+      "status": "passed",
+      "expected": 423580000,
+      "observed": 423580000,
+      "difference": 0,
+      "confidence": 0.76206,
+      "row_id": "summary-p5-t1-r13",
+      "period": "2011"
+    },
+    {
+      "group": "structural",
+      "rule": "relationship_period_coverage",
+      "status": "passed",
+      "expected": [
+        "2012",
+        "2011"
+      ],
+      "observed": [
+        "2011",
+        "2012"
+      ],
+      "difference": null,
+      "confidence": 0.76206,
+      "row_id": "summary-p5-t1-r13"
+    },
+    {
+      "group": "structural",
+      "rule": "relationship_note_reference",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.963787,
+      "row_id": "summary-p7-t1-r6"
+    },
+    {
+      "group": "structural",
+      "rule": "relationship_within_note_section",
+      "status": "passed",
+      "expected": true,
+      "observed": true,
+      "difference": null,
+      "confidence": 0.704995,
+      "row_id": "summary-p7-t1-r6"
+    },
+    {
+      "group": "financial",
+      "rule": "summary_note_reconciliation",
+      "status": "passed",
+      "expected": 3896434,
+      "observed": 3896434,
+      "difference": 0,
+      "confidence": 0.704995,
+      "row_id": "summary-p7-t1-r6",
+      "period": "2012"
+    },
+    {
+      "group": "financial",
+      "rule": "summary_note_reconciliation",
+      "status": "passed",
+      "expected": 151350000,
+      "observed": 151350000,
+      "difference": 0,
+      "confidence": 0.704995,
+      "row_id": "summary-p7-t1-r6",
+      "period": "2011"
+    },
+    {
+      "group": "structural",
+      "rule": "relationship_period_coverage",
+      "status": "passed",
+      "expected": [
+        "2012",
+        "2011"
+      ],
+      "observed": [
+        "2011",
+        "2012"
+      ],
+      "difference": null,
+      "confidence": 0.704995,
+      "row_id": "summary-p7-t1-r6"
+    },
+    {
+      "group": "financial",
+      "rule": "assets_equal_liabilities_and_equity",
+      "status": "passed",
+      "expected": 852149804,
+      "observed": 852149804,
+      "difference": 0,
+      "confidence": 0.756896,
+      "row_id": "summary-p5-t1-r18",
+      "target_row_id": "summary-p6-t1-r29",
+      "period": "2012"
+    },
+    {
+      "group": "financial",
+      "rule": "assets_equal_liabilities_and_equity",
+      "status": "passed",
+      "expected": 781408277,
+      "observed": 781408277,
+      "difference": 0,
+      "confidence": 0.9210944999999999,
+      "row_id": "summary-p5-t1-r18",
+      "target_row_id": "summary-p6-t1-r29",
+      "period": "2011"
+    },
+    {
+      "group": "financial",
+      "rule": "parent_profit_matches_balance_sheet",
+      "status": "passed",
+      "expected": 9060587,
+      "observed": 9060587,
+      "difference": 0,
+      "confidence": 0.9675054999999999,
+      "row_id": "summary-p7-t1-r20",
+      "target_row_id": "summary-p6-t1-r27",
+      "period": "2012"
+    },
+    {
+      "group": "financial",
+      "rule": "parent_profit_matches_balance_sheet",
+      "status": "passed",
+      "expected": 161642510,
+      "observed": 161642510,
+      "difference": 0,
+      "confidence": 0.9775895,
+      "row_id": "summary-p7-t1-r20",
+      "target_row_id": "summary-p6-t1-r27",
+      "period": "2011"
+    }
+  ]
+}

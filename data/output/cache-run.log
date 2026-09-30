@@ -1,0 +1,15 @@
+2026-09-30 17:16:36,375 INFO [1/15] Inspecting PDF
+2026-09-30 17:16:36,405 INFO [2-4/15] Rendering, preprocessing, OCR summary pages
+2026-09-30 17:16:36,408 INFO [5-6/15] Layout, hierarchy, normalization and uncertain-cell re-reading
+2026-09-30 17:16:36,449 INFO [7/15] Searching headings across every physical page
+2026-09-30 17:16:36,655 INFO Detected note 11 at physical pages 53-54
+2026-09-30 17:16:36,655 INFO [8/15] Extracting note tables inside detected section
+2026-09-30 17:16:36,694 INFO [9-12/15] Candidates, embeddings, cross-encoder and confidence aggregation
+2026-09-30 17:16:39,553 INFO Loading SentenceTransformer model from /home/admin/workspace/Project/data/cache/models/intfloat--multilingual-e5-small.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8889.36it/s]
+2026-09-30 17:16:41,492 INFO No modules.json found for /home/admin/workspace/Project/data/cache/models/cross-encoder--mmarco-mMiniLMv2-L12-H384-v1, initializing a new CrossEncoder model.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 8363.39it/s]
+2026-09-30 17:16:43,410 INFO [13/15] Structural, format and financial validation
+2026-09-30 17:16:43,426 INFO [14/15] Writing JSON artifacts
+2026-09-30 17:16:43,448 INFO [15/15] Comparison and error analysis complete: {'structural': {'passed': 269}, 'format': {'passed': 207, 'warning': 8}, 'financial': {'passed': 58, 'warning': 7}}
+2026-09-30 17:16:43,448 WARNING Relation summary-p7-t1-r6: ['candidate_margin_low']

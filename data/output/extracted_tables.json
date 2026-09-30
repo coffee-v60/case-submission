@@ -1,0 +1,6889 @@
+{
+  "summary_tables": [
+    {
+      "id": "summary-p5-t1",
+      "page": 5,
+      "title": "KONSOLİDE BİLANÇO",
+      "kind": "summary",
+      "columns": [
+        {
+          "id": "c1",
+          "title": "Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": "2012",
+          "x_right": 1810.5
+        },
+        {
+          "id": "c2",
+          "title": "Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": "2011",
+          "x_right": 2152
+        }
+      ],
+      "periods": [
+        "2012",
+        "2011"
+      ],
+      "currency": "TRY",
+      "unit_raw": "(Tüm tutarlar Türk Lirası (TL) olarak gösterilmiştir)",
+      "confidence": 0.956782,
+      "rows": [
+        {
+          "id": "summary-p5-t1-r1",
+          "raw_label": "VARLIKLAR",
+          "normalized_label": "VARLIKLAR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            302,
+            781,
+            536,
+            809
+          ],
+          "values": {
+            "c1": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.53884,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            },
+            "c2": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.53884,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            }
+          },
+          "confidence": 0.609883,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "section",
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r2",
+          "raw_label": "Dönen Varlıklar",
+          "normalized_label": "Dönen Varlıklar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            303,
+            831,
+            574,
+            858
+          ],
+          "values": {
+            "c1": {
+              "raw": "134.557.729",
+              "value": 134557729,
+              "state": "numeric",
+              "confidence": 0.961443,
+              "bbox": [
+                1624.0,
+                831.0,
+                1809.0,
+                858.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "21.380.946",
+              "value": 21380946,
+              "state": "numeric",
+              "confidence": 0.9718,
+              "bbox": [
+                1981.0,
+                831.0,
+                2151.0,
+                858.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.974126,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "subtotal",
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p5-t1-r18",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r3",
+          "raw_label": "Nakit ve Nakit Benzerleri",
+          "normalized_label": "Nakit ve Nakit Benzerleri",
+          "note_reference": [
+            4
+          ],
+          "note_reference_bbox": [
+            1369,
+            880,
+            1388,
+            907
+          ],
+          "bbox": [
+            333,
+            878,
+            730,
+            907
+          ],
+          "values": {
+            "c1": {
+              "raw": "41.854.579",
+              "value": 41854579,
+              "state": "numeric",
+              "confidence": 0.97342,
+              "bbox": [
+                1641.0,
+                879.0,
+                1809.0,
+                908.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "7.726.696",
+              "value": 7726696,
+              "state": "numeric",
+              "confidence": 0.977169,
+              "bbox": [
+                2002.0,
+                879.0,
+                2151.0,
+                908.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.972958,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r4",
+          "raw_label": "Ticari Alacaklar",
+          "normalized_label": "Ticari Alacaklar",
+          "note_reference": [
+            8
+          ],
+          "note_reference_bbox": [
+            1371,
+            929,
+            1386,
+            955
+          ],
+          "bbox": [
+            333,
+            927,
+            585,
+            956
+          ],
+          "values": {
+            "c1": {
+              "raw": "6.281.458",
+              "value": 6281458,
+              "state": "numeric",
+              "confidence": 0.975311,
+              "bbox": [
+                1661.0,
+                929.0,
+                1809.0,
+                956.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "7.801.336",
+              "value": 7801336,
+              "state": "numeric",
+              "confidence": 0.979116,
+              "bbox": [
+                2003.0,
+                928.0,
+                2151.0,
+                957.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.970941,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r5",
+          "raw_label": "-İlişkili Taraflardan Ticari Alacaklar",
+          "normalized_label": "-İlişkili Taraflardan Ticari Alacaklar",
+          "note_reference": [
+            28
+          ],
+          "note_reference_bbox": [
+            1359,
+            979,
+            1396,
+            1006
+          ],
+          "bbox": [
+            365,
+            972,
+            926,
+            1011
+          ],
+          "values": {
+            "c1": {
+              "raw": "170.966",
+              "value": 170966,
+              "state": "numeric",
+              "confidence": 0.978868,
+              "bbox": [
+                1694.0,
+                978.0,
+                1810.0,
+                1006.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "2.082.986",
+              "value": 2082986,
+              "state": "numeric",
+              "confidence": 0.979079,
+              "bbox": [
+                2002.0,
+                978.0,
+                2152.0,
+                1006.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.965212,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p5-t1-r4",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r6",
+          "raw_label": "-Diğer Ticari Alacaklar",
+          "normalized_label": "-Diğer Ticari Alacaklar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            365,
+            1026,
+            724,
+            1061
+          ],
+          "values": {
+            "c1": {
+              "raw": "6.110.492",
+              "value": 6110492,
+              "state": "numeric",
+              "confidence": 0.981034,
+              "bbox": [
+                1661.0,
+                1027.0,
+                1810.0,
+                1055.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "5.718.350",
+              "value": 5718350,
+              "state": "numeric",
+              "confidence": 0.978154,
+              "bbox": [
+                2003.0,
+                1027.0,
+                2150.0,
+                1055.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.978599,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p5-t1-r4",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r7",
+          "raw_label": "Diger Alacaklar",
+          "normalized_label": "Diger Alacaklar",
+          "note_reference": [
+            9
+          ],
+          "note_reference_bbox": [
+            1370,
+            1076,
+            1387,
+            1103
+          ],
+          "bbox": [
+            334,
+            1075,
+            580,
+            1110
+          ],
+          "values": {
+            "c1": {
+              "raw": "3.993",
+              "value": 3993,
+              "state": "numeric",
+              "confidence": 0.976903,
+              "bbox": [
+                1727.0,
+                1076.0,
+                1809.0,
+                1104.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "56.956",
+              "value": 56956,
+              "state": "numeric",
+              "confidence": 0.982331,
+              "bbox": [
+                2051.0,
+                1075.0,
+                2152.0,
+                1104.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.975235,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r8",
+          "raw_label": "Stoklar",
+          "normalized_label": "Stoklar",
+          "note_reference": [
+            10
+          ],
+          "note_reference_bbox": [
+            1364,
+            1126,
+            1396,
+            1153
+          ],
+          "bbox": [
+            336,
+            1119,
+            445,
+            1163
+          ],
+          "values": {
+            "c1": {
+              "raw": "77.543.097",
+              "value": 77543097,
+              "state": "numeric",
+              "confidence": 0.884478,
+              "bbox": [
+                1642.0,
+                1125.0,
+                1810.0,
+                1153.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "1.083.886",
+              "value": 1083886,
+              "state": "numeric",
+              "confidence": 0.979411,
+              "bbox": [
+                2007.0,
+                1125.0,
+                2151.0,
+                1153.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.930229,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r9",
+          "raw_label": "Diğer Donen Varlıklar",
+          "normalized_label": "Diğer Donen Varlıklar",
+          "note_reference": [
+            18
+          ],
+          "note_reference_bbox": [
+            1364,
+            1172,
+            1395,
+            1200
+          ],
+          "bbox": [
+            333,
+            1172,
+            684,
+            1206
+          ],
+          "values": {
+            "c1": {
+              "raw": "8.874.602",
+              "value": 8874602,
+              "state": "numeric",
+              "confidence": 0.976608,
+              "bbox": [
+                1663.0,
+                1173.0,
+                1811.0,
+                1201.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "4.712.072",
+              "value": 4712072,
+              "state": "numeric",
+              "confidence": 0.695132,
+              "bbox": [
+                2003.0,
+                1173.0,
+                2153.0,
+                1201.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null,
+              "ocr_alternatives": [
+                {
+                  "raw": "4.712.072",
+                  "value": 4712072,
+                  "source": "original"
+                },
+                {
+                  "raw": "4.712.072",
+                  "value": 4712072,
+                  "source": "preprocessed"
+                },
+                {
+                  "raw": "4.712.072",
+                  "value": 4712072,
+                  "source": "crop_psm7"
+                }
+              ],
+              "agreement": 1.0
+            }
+          },
+          "confidence": 0.8874,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r10",
+          "raw_label": "Duran Varhklar",
+          "normalized_label": "Duran Varhklar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            303,
+            1271,
+            574,
+            1298
+          ],
+          "values": {
+            "c1": {
+              "raw": "717.592.075",
+              "value": 717592075,
+              "state": "numeric",
+              "confidence": 0.972438,
+              "bbox": [
+                1625.0,
+                1271.0,
+                1811.0,
+                1299.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "760.027.331",
+              "value": 760027331,
+              "state": "numeric",
+              "confidence": 0.969632,
+              "bbox": [
+                1965.0,
+                1271.0,
+                2152.0,
+                1298.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.970331,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "subtotal",
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p5-t1-r18",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r11",
+          "raw_label": "Finansal Yatırımlar",
+          "normalized_label": "Finansal Yatırımlar",
+          "note_reference": [
+            5
+          ],
+          "note_reference_bbox": [
+            1372,
+            1319,
+            1387,
+            1346
+          ],
+          "bbox": [
+            334,
+            1318,
+            637,
+            1346
+          ],
+          "values": {
+            "c1": {
+              "raw": "4.224",
+              "value": 4224,
+              "state": "numeric",
+              "confidence": 0.920126,
+              "bbox": [
+                1728.0,
+                1320.0,
+                1812.0,
+                1347.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "4.224",
+              "value": 4224,
+              "state": "numeric",
+              "confidence": 0.97931,
+              "bbox": [
+                2069.0,
+                1320.0,
+                2153.0,
+                1347.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.959482,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r10",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r12",
+          "raw_label": "Özkaynak Yönetimiyle Değerlenen Yatırımlar",
+          "normalized_label": "Özkaynak Yönetimiyle Değerlenen Yatırımlar",
+          "note_reference": [
+            6
+          ],
+          "note_reference_bbox": [
+            1372,
+            1369,
+            1387,
+            1396
+          ],
+          "bbox": [
+            334,
+            1362,
+            1042,
+            1403
+          ],
+          "values": {
+            "c1": {
+              "raw": "28.785.840",
+              "value": 28785840,
+              "state": "numeric",
+              "confidence": 0.978353,
+              "bbox": [
+                1643.0,
+                1368.0,
+                1812.0,
+                1396.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "-",
+              "value": null,
+              "state": "dash",
+              "confidence": 0.937279,
+              "bbox": [
+                2143.0,
+                1384.0,
+                2154.0,
+                1389.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.942203,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r10",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r13",
+          "raw_label": "Yatırım Amaçlı Gayrimenkuller",
+          "normalized_label": "Yatırım Amaçlı Gayrimenkuller",
+          "note_reference": [
+            11
+          ],
+          "note_reference_bbox": [
+            1365,
+            1418,
+            1394,
+            1444
+          ],
+          "bbox": [
+            333,
+            1416,
+            829,
+            1451
+          ],
+          "values": {
+            "c1": {
+              "raw": "373.992.222",
+              "value": 373992222,
+              "state": "numeric",
+              "confidence": 0.938076,
+              "bbox": [
+                1625.0,
+                1417.0,
+                1812.0,
+                1445.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "423.580.000",
+              "value": 423580000,
+              "state": "numeric",
+              "confidence": 0.950524,
+              "bbox": [
+                1966.0,
+                1417.0,
+                2153.0,
+                1445.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.95684,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r10",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r14",
+          "raw_label": "Maddi Duran Varlıklar",
+          "normalized_label": "Maddi Duran Varlıklar",
+          "note_reference": [
+            12
+          ],
+          "note_reference_bbox": [
+            1365,
+            1466,
+            1398,
+            1493
+          ],
+          "bbox": [
+            333,
+            1465,
+            692,
+            1493
+          ],
+          "values": {
+            "c1": {
+              "raw": "285.161.777",
+              "value": 285161777,
+              "state": "numeric",
+              "confidence": 0.975502,
+              "bbox": [
+                1624.0,
+                1466.0,
+                1812.0,
+                1494.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "313.618.867",
+              "value": 313618867,
+              "state": "numeric",
+              "confidence": 0.978445,
+              "bbox": [
+                1967.0,
+                1466.0,
+                2154.0,
+                1494.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.977448,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r10",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r15",
+          "raw_label": "Maddi Olmayan Duran Varlıklar",
+          "normalized_label": "Maddi Olmayan Duran Varlıklar",
+          "note_reference": [
+            13
+          ],
+          "note_reference_bbox": [
+            1365,
+            1516,
+            1396,
+            1542
+          ],
+          "bbox": [
+            333,
+            1515,
+            840,
+            1549
+          ],
+          "values": {
+            "c1": {
+              "raw": "14.557.878",
+              "value": 14557878,
+              "state": "numeric",
+              "confidence": 0.978965,
+              "bbox": [
+                1647.0,
+                1515.0,
+                1811.0,
+                1543.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "14.526.075",
+              "value": 14526075,
+              "state": "numeric",
+              "confidence": 0.97696,
+              "bbox": [
+                1989.0,
+                1515.0,
+                2153.0,
+                1543.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.98125,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r10",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r16",
+          "raw_label": "Ertelenen Vergi Varlığı",
+          "normalized_label": "Ertelenen Vergi Varlığı",
+          "note_reference": [
+            26
+          ],
+          "note_reference_bbox": [
+            1361,
+            1564,
+            1397,
+            1591
+          ],
+          "bbox": [
+            333,
+            1563,
+            697,
+            1598
+          ],
+          "values": {
+            "c1": {
+              "raw": "4.065.781",
+              "value": 4065781,
+              "state": "numeric",
+              "confidence": 0.974785,
+              "bbox": [
+                1663.0,
+                1563.0,
+                1808.0,
+                1592.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "8.262.684",
+              "value": 8262684,
+              "state": "numeric",
+              "confidence": 0.973763,
+              "bbox": [
+                2006.0,
+                1564.0,
+                2155.0,
+                1592.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.976845,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r10",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r17",
+          "raw_label": "Diğer Duran Varlıklar",
+          "normalized_label": "Diğer Duran Varlıklar",
+          "note_reference": [
+            18
+          ],
+          "note_reference_bbox": [
+            1366,
+            1613,
+            1398,
+            1640
+          ],
+          "bbox": [
+            334,
+            1612,
+            677,
+            1647
+          ],
+          "values": {
+            "c1": {
+              "raw": "11.024.353",
+              "value": 11024353,
+              "state": "numeric",
+              "confidence": 0.978083,
+              "bbox": [
+                1648.0,
+                1613.0,
+                1810.0,
+                1641.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "35.481",
+              "value": 35481,
+              "state": "numeric",
+              "confidence": 0.976169,
+              "bbox": [
+                2053.0,
+                1613.0,
+                2151.0,
+                1641.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.97836,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p5-t1-r10",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p5-t1-r18",
+          "raw_label": "TOPLAM VARLIKLAR",
+          "normalized_label": "TOPLAM VARLIKLAR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            302,
+            1662,
+            717,
+            1690
+          ],
+          "values": {
+            "c1": {
+              "raw": "852.149.804",
+              "value": 852149804,
+              "state": "numeric",
+              "confidence": 0.652954,
+              "bbox": [
+                1626.0,
+                1658.0,
+                1812.0,
+                1687.0
+              ],
+              "low_confidence": false,
+              "warnings": [
+                "ocr_variants_disagree"
+              ],
+              "unit": null,
+              "ocr_alternatives": [
+                {
+                  "raw": "832.149.804",
+                  "value": 832149804,
+                  "source": "original"
+                },
+                {
+                  "raw": "852.149.804",
+                  "value": 852149804,
+                  "source": "preprocessed"
+                },
+                {
+                  "raw": "852.149.804",
+                  "value": 852149804,
+                  "source": "crop_psm7"
+                }
+              ],
+              "agreement": 0.6666666666666666
+            },
+            "c2": {
+              "raw": "781.408.277",
+              "value": 781408277,
+              "state": "numeric",
+              "confidence": 0.975563,
+              "bbox": [
+                1968.0,
+                1658.0,
+                2155.0,
+                1686.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.908998,
+          "warnings": [],
+          "source_page": 5,
+          "low_confidence": false,
+          "row_type": "grand_total",
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          },
+          "component_ids": [
+            "summary-p5-t1-r2",
+            "summary-p5-t1-r10"
+          ],
+          "aggregation_rule": "balance_total_sum"
+        }
+      ],
+      "region": [
+        0.0,
+        1.0
+      ],
+      "low_confidence": false,
+      "warnings": []
+    },
+    {
+      "id": "summary-p6-t1",
+      "page": 6,
+      "title": "KONSOLİDE BİLANÇO",
+      "kind": "summary",
+      "columns": [
+        {
+          "id": "c1",
+          "title": "Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": "2012",
+          "x_right": 1803.0
+        },
+        {
+          "id": "c2",
+          "title": "Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": "2011",
+          "x_right": 2145
+        }
+      ],
+      "periods": [
+        "2012",
+        "2011"
+      ],
+      "currency": "TRY",
+      "unit_raw": "(Tüm tutarlar Türk Lirası (TL) olarak gösterilmiştir)",
+      "confidence": 0.949828,
+      "rows": [
+        {
+          "id": "summary-p6-t1-r1",
+          "raw_label": "KAYNAKLAR",
+          "normalized_label": "KAYNAKLAR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            303,
+            746,
+            552,
+            774
+          ],
+          "values": {
+            "c1": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.537968,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            },
+            "c2": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.537968,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            }
+          },
+          "confidence": 0.609929,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "section",
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r2",
+          "raw_label": "Kısa Vadeli Yükümlülükler",
+          "normalized_label": "Kısa Vadeli Yükümlülükler",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            303,
+            797,
+            752,
+            827
+          ],
+          "values": {
+            "c1": {
+              "raw": "63.553.798",
+              "value": 63553798,
+              "state": "numeric",
+              "confidence": 0.974881,
+              "bbox": [
+                1636.0,
+                804.0,
+                1805.0,
+                833.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "107.356.816",
+              "value": 107356816,
+              "state": "numeric",
+              "confidence": 0.977365,
+              "bbox": [
+                1959.0,
+                807.0,
+                2147.0,
+                834.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.968391,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "subtotal",
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p6-t1-r29",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r3",
+          "raw_label": "Finansal Borçlar",
+          "normalized_label": "Finansal Borçlar",
+          "note_reference": [
+            7
+          ],
+          "note_reference_bbox": [
+            1363,
+            855,
+            1380,
+            882
+          ],
+          "bbox": [
+            333,
+            849,
+            587,
+            884
+          ],
+          "values": {
+            "c1": {
+              "raw": "38.216.987",
+              "value": 38216987,
+              "state": "numeric",
+              "confidence": 0.976814,
+              "bbox": [
+                1635.0,
+                856.0,
+                1805.0,
+                885.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "93.250.501",
+              "value": 93250501,
+              "state": "numeric",
+              "confidence": 0.944752,
+              "bbox": [
+                1977.0,
+                858.0,
+                2142.0,
+                887.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.956864,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r4",
+          "raw_label": "Ticari Borçlar",
+          "normalized_label": "Ticari Borçlar",
+          "note_reference": [
+            8
+          ],
+          "note_reference_bbox": [
+            1364,
+            906,
+            1379,
+            933
+          ],
+          "bbox": [
+            331,
+            900,
+            548,
+            935
+          ],
+          "values": {
+            "c1": {
+              "raw": "7.932.336",
+              "value": 7932336,
+              "state": "numeric",
+              "confidence": 0.959665,
+              "bbox": [
+                1656.0,
+                907.0,
+                1805.0,
+                936.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "4.232.740",
+              "value": 4232740,
+              "state": "numeric",
+              "confidence": 0.970045,
+              "bbox": [
+                1995.0,
+                910.0,
+                2145.0,
+                938.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.958501,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r5",
+          "raw_label": "-İlişkili Taraflara Ticari Borçlar",
+          "normalized_label": "-İlişkili Taraflara Ticari Borçlar",
+          "note_reference": [
+            28
+          ],
+          "note_reference_bbox": [
+            1353,
+            964,
+            1388,
+            992
+          ],
+          "bbox": [
+            363,
+            949,
+            849,
+            992
+          ],
+          "values": {
+            "c1": {
+              "raw": "4.993.230",
+              "value": 4993230,
+              "state": "numeric",
+              "confidence": 0.951039,
+              "bbox": [
+                1654.0,
+                966.0,
+                1805.0,
+                995.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "-",
+              "value": null,
+              "state": "dash",
+              "confidence": 0.948699,
+              "bbox": [
+                2135.0,
+                984.0,
+                2147.0,
+                989.0
+              ],
+              "low_confidence": false,
+              "warnings": [
+                "recovered_from_page_ocr"
+              ],
+              "unit": null,
+              "initial_raw": "",
+              "agreement": 1.0,
+              "recovery": {
+                "method": "page_ocr_consensus",
+                "readings": [
+                  {
+                    "source": "original",
+                    "raw": "-",
+                    "state": "dash",
+                    "value": null
+                  },
+                  {
+                    "source": "preprocessed",
+                    "raw": "-",
+                    "state": "dash",
+                    "value": null
+                  }
+                ]
+              }
+            }
+          },
+          "confidence": 0.840748,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r4",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r6",
+          "raw_label": "~Diger Ticari Borçlar",
+          "normalized_label": "~Diger Ticari Borçlar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            363,
+            1013,
+            684,
+            1049
+          ],
+          "values": {
+            "c1": {
+              "raw": "2.939.106",
+              "value": 2939106,
+              "state": "numeric",
+              "confidence": 0.973253,
+              "bbox": [
+                1654.0,
+                1024.0,
+                1805.0,
+                1053.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "4.232.740",
+              "value": 4232740,
+              "state": "numeric",
+              "confidence": 0.97974,
+              "bbox": [
+                1995.0,
+                1026.0,
+                2145.0,
+                1055.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.958865,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r4",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r7",
+          "raw_label": "Diğer Borçlar",
+          "normalized_label": "Diğer Borçlar",
+          "note_reference": [
+            9
+          ],
+          "note_reference_bbox": [
+            1363,
+            1072,
+            1380,
+            1100
+          ],
+          "bbox": [
+            332,
+            1067,
+            542,
+            1103
+          ],
+          "values": {
+            "c1": {
+              "raw": "2.784.832",
+              "value": 2784832,
+              "state": "numeric",
+              "confidence": 0.972529,
+              "bbox": [
+                1654.0,
+                1074.0,
+                1805.0,
+                1101.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "3.244.930",
+              "value": 3244930,
+              "state": "numeric",
+              "confidence": 0.971275,
+              "bbox": [
+                1995.0,
+                1075.0,
+                2145.0,
+                1104.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.964948,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r8",
+          "raw_label": "-İlişkili Taraflara Diğer Borçlar",
+          "normalized_label": "-İlişkili Taraflara Diğer Borçlar",
+          "note_reference": [
+            28
+          ],
+          "note_reference_bbox": [
+            1353,
+            1129,
+            1388,
+            1157
+          ],
+          "bbox": [
+            363,
+            1114,
+            843,
+            1162
+          ],
+          "values": {
+            "c1": {
+              "raw": "1.500.000",
+              "value": 1500000,
+              "state": "numeric",
+              "confidence": 0.971374,
+              "bbox": [
+                1659.0,
+                1131.0,
+                1805.0,
+                1160.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "1.887.911",
+              "value": 1887911,
+              "state": "numeric",
+              "confidence": 0.963036,
+              "bbox": [
+                2000.0,
+                1134.0,
+                2142.0,
+                1161.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.940981,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r7",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r9",
+          "raw_label": "-Diğer Borçlar ’",
+          "normalized_label": "-Diğer Borçlar ’",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            361,
+            1179,
+            1071,
+            1214
+          ],
+          "values": {
+            "c1": {
+              "raw": "1.284.832",
+              "value": 1284832,
+              "state": "numeric",
+              "confidence": 0.967927,
+              "bbox": [
+                1658.0,
+                1189.0,
+                1805.0,
+                1217.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "1.357.019",
+              "value": 1357019,
+              "state": "numeric",
+              "confidence": 0.977658,
+              "bbox": [
+                1998.0,
+                1191.0,
+                2145.0,
+                1220.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.939415,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r7",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r10",
+          "raw_label": "Dönem Karı Vergi Yükümlülüğü",
+          "normalized_label": "Dönem Karı Vergi Yükümlülüğü",
+          "note_reference": [
+            26
+          ],
+          "note_reference_bbox": [
+            1353,
+            1245,
+            1388,
+            1272
+          ],
+          "bbox": [
+            331,
+            1236,
+            835,
+            1274
+          ],
+          "values": {
+            "c1": {
+              "raw": "-",
+              "value": null,
+              "state": "dash",
+              "confidence": 0.954204,
+              "bbox": [
+                1794.0,
+                1263.0,
+                1805.0,
+                1268.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "716.915",
+              "value": 716915,
+              "state": "numeric",
+              "confidence": 0.973807,
+              "bbox": [
+                2025.0,
+                1249.0,
+                2144.0,
+                1278.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.949944,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r11",
+          "raw_label": "Borç Kafşılıkları",
+          "normalized_label": "Borç Kafşılıkları",
+          "note_reference": [
+            15
+          ],
+          "note_reference_bbox": [
+            1356,
+            1303,
+            1386,
+            1331
+          ],
+          "bbox": [
+            330,
+            1292,
+            588,
+            1329
+          ],
+          "values": {
+            "c1": {
+              "raw": "504.851",
+              "value": 504851,
+              "state": "numeric",
+              "confidence": 0.977241,
+              "bbox": [
+                1683.0,
+                1305.0,
+                1800.0,
+                1334.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "-",
+              "value": null,
+              "state": "dash",
+              "confidence": 0.950238,
+              "bbox": [
+                2135.0,
+                1323.0,
+                2147.0,
+                1328.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.930364,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r12",
+          "raw_label": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar",
+          "normalized_label": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar",
+          "note_reference": [
+            17
+          ],
+          "note_reference_bbox": [
+            1356,
+            1362,
+            1388,
+            1389
+          ],
+          "bbox": [
+            331,
+            1349,
+            1094,
+            1391
+          ],
+          "values": {
+            "c1": {
+              "raw": "1.016.352",
+              "value": 1016352,
+              "state": "numeric",
+              "confidence": 0.977041,
+              "bbox": [
+                1658.0,
+                1363.0,
+                1805.0,
+                1391.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "628.306",
+              "value": 628306,
+              "state": "numeric",
+              "confidence": 0.979854,
+              "bbox": [
+                2025.0,
+                1365.0,
+                2145.0,
+                1394.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.956904,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r13",
+          "raw_label": "Diğer Kısa Vadeli Yükümlülükler",
+          "normalized_label": "Diğer Kısa Vadeli Yükümlülükler",
+          "note_reference": [
+            18
+          ],
+          "note_reference_bbox": [
+            1356,
+            1412,
+            1388,
+            1440
+          ],
+          "bbox": [
+            330,
+            1407,
+            851,
+            1442
+          ],
+          "values": {
+            "c1": {
+              "raw": "13.098.440",
+              "value": 13098440,
+              "state": "numeric",
+              "confidence": 0.976801,
+              "bbox": [
+                1639.0,
+                1409.0,
+                1803.0,
+                1454.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "5.223.424",
+              "value": 5223424,
+              "state": "numeric",
+              "confidence": 0.6354259999999999,
+              "bbox": [
+                1995.0,
+                1416.0,
+                2145.0,
+                1445.0
+              ],
+              "low_confidence": false,
+              "warnings": [
+                "corrected_by_independent_ocr_agreement",
+                "ocr_variants_disagree"
+              ],
+              "unit": null,
+              "ocr_alternatives": [
+                {
+                  "raw": "5.223,424",
+                  "value": 5223.424,
+                  "source": "original"
+                },
+                {
+                  "raw": "5.223.424",
+                  "value": 5223424,
+                  "source": "preprocessed"
+                },
+                {
+                  "raw": "5.223.424",
+                  "value": 5223424,
+                  "source": "crop_psm7"
+                }
+              ],
+              "agreement": 0.6666666666666666,
+              "initial_raw": "5.223,424"
+            }
+          },
+          "confidence": 0.902211,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r2",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r14",
+          "raw_label": "Uzun Vadeli Yükümlülükler",
+          "normalized_label": "Uzun Vadeli Yükümlülükler",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            300,
+            1509,
+            761,
+            1539
+          ],
+          "values": {
+            "c1": {
+              "raw": "136.150.924",
+              "value": 136150924,
+              "state": "numeric",
+              "confidence": 0.975264,
+              "bbox": [
+                1618.0,
+                1515.0,
+                1805.0,
+                1544.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "54.471.741",
+              "value": 54471741,
+              "state": "numeric",
+              "confidence": 0.940657,
+              "bbox": [
+                1977.0,
+                1518.0,
+                2144.0,
+                1545.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.957642,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "subtotal",
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p6-t1-r29",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r15",
+          "raw_label": "Finansal Borglar",
+          "normalized_label": "Finansal Borglar",
+          "note_reference": [
+            7
+          ],
+          "note_reference_bbox": [
+            1362,
+            1566,
+            1379,
+            1593
+          ],
+          "bbox": [
+            329,
+            1560,
+            584,
+            1595
+          ],
+          "values": {
+            "c1": {
+              "raw": "71.554.357",
+              "value": 71554357,
+              "state": "numeric",
+              "confidence": 0.951354,
+              "bbox": [
+                1635.0,
+                1567.0,
+                1805.0,
+                1595.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "1.180.562",
+              "value": 1180562,
+              "state": "numeric",
+              "confidence": 0.971214,
+              "bbox": [
+                1998.0,
+                1569.0,
+                2145.0,
+                1596.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.944492,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r14",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r16",
+          "raw_label": "Diğer Uzun Vadeli Yükümlülükler",
+          "normalized_label": "Diğer Uzun Vadeli Yükümlülükler",
+          "note_reference": [
+            18
+          ],
+          "note_reference_bbox": [
+            1356,
+            1615,
+            1386,
+            1644
+          ],
+          "bbox": [
+            329,
+            1610,
+            862,
+            1646
+          ],
+          "values": {
+            "c1": {
+              "raw": "20.384.859",
+              "value": 20384859,
+              "state": "numeric",
+              "confidence": 0.978023,
+              "bbox": [
+                1635.0,
+                1617.0,
+                1803.0,
+                1646.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "-",
+              "value": null,
+              "state": "dash",
+              "confidence": 0.959111,
+              "bbox": [
+                2135.0,
+                1635.0,
+                2145.0,
+                1640.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.957584,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r14",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r17",
+          "raw_label": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar",
+          "normalized_label": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar",
+          "note_reference": [
+            17
+          ],
+          "note_reference_bbox": [
+            1355,
+            1667,
+            1388,
+            1695
+          ],
+          "bbox": [
+            330,
+            1659,
+            1092,
+            1700
+          ],
+          "values": {
+            "c1": {
+              "raw": "100.330",
+              "value": 100330,
+              "state": "numeric",
+              "confidence": 0.979488,
+              "bbox": [
+                1688.0,
+                1669.0,
+                1803.0,
+                1697.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "122.730",
+              "value": 122730,
+              "state": "numeric",
+              "confidence": 0.981355,
+              "bbox": [
+                2028.0,
+                1671.0,
+                2145.0,
+                1698.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.963553,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r14",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r18",
+          "raw_label": "Ertelenmiş Vergi Yükümlülüğü",
+          "normalized_label": "Ertelenmiş Vergi Yükümlülüğü",
+          "note_reference": [
+            26
+          ],
+          "note_reference_bbox": [
+            1351,
+            1718,
+            1388,
+            1745
+          ],
+          "bbox": [
+            328,
+            1713,
+            812,
+            1749
+          ],
+          "values": {
+            "c1": {
+              "raw": "44.111.378",
+              "value": 44111378,
+              "state": "numeric",
+              "confidence": 0.976074,
+              "bbox": [
+                1634.0,
+                1719.0,
+                1803.0,
+                1748.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "53.168.449",
+              "value": 53168449,
+              "state": "numeric",
+              "confidence": 0.975059,
+              "bbox": [
+                1977.0,
+                1722.0,
+                2145.0,
+                1751.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.969402,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r14",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r19",
+          "raw_label": "ÖZKAYNAKLAR",
+          "normalized_label": "ÖZKAYNAKLAR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            300,
+            1804,
+            603,
+            1855
+          ],
+          "values": {
+            "c1": {
+              "raw": "652.445.082",
+              "value": 652445082,
+              "state": "numeric",
+              "confidence": 0.978055,
+              "bbox": [
+                1617.0,
+                1820.0,
+                1803.0,
+                1848.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "619.579.720",
+              "value": 619579720,
+              "state": "numeric",
+              "confidence": 0.979019,
+              "bbox": [
+                1959.0,
+                1823.0,
+                2145.0,
+                1851.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.940165,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "subtotal",
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p6-t1-r29",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "financial_role": "equity",
+          "component_ids": [
+            "summary-p6-t1-r20",
+            "summary-p6-t1-r28"
+          ],
+          "aggregation_rule": "equity_sum"
+        },
+        {
+          "id": "summary-p6-t1-r20",
+          "raw_label": "Ana Ortaklığa Ait Özkaynaklar",
+          "normalized_label": "Ana Ortaklığa Ait Özkaynaklar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            297,
+            1860,
+            815,
+            1902
+          ],
+          "values": {
+            "c1": {
+              "raw": "527.217.933",
+              "value": 527217933,
+              "state": "numeric",
+              "confidence": 0.6467086666666666,
+              "bbox": [
+                1617.0,
+                1872.0,
+                1802.0,
+                1901.0
+              ],
+              "low_confidence": false,
+              "warnings": [
+                "ocr_variants_disagree"
+              ],
+              "unit": null,
+              "ocr_alternatives": [
+                {
+                  "raw": "527.217.933",
+                  "value": 527217933,
+                  "source": "original"
+                },
+                {
+                  "raw": "527.211.933",
+                  "value": 527211933,
+                  "source": "preprocessed"
+                },
+                {
+                  "raw": "527.217.933",
+                  "value": 527217933,
+                  "source": "crop_psm7"
+                }
+              ],
+              "agreement": 0.6666666666666666
+            },
+            "c2": {
+              "raw": "492.663.853",
+              "value": 492663853,
+              "state": "numeric",
+              "confidence": 0.978005,
+              "bbox": [
+                1958.0,
+                1874.0,
+                2144.0,
+                1902.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.888424,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "subtotal",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r19",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "financial_role": "parent_equity"
+        },
+        {
+          "id": "summary-p6-t1-r21",
+          "raw_label": "Çıkarılmış Sermaye",
+          "normalized_label": "Çıkarılmış Sermaye",
+          "note_reference": [
+            19
+          ],
+          "note_reference_bbox": [
+            1355,
+            1922,
+            1388,
+            1949
+          ],
+          "bbox": [
+            334,
+            1916,
+            637,
+            1953
+          ],
+          "values": {
+            "c1": {
+              "raw": "157.000.000",
+              "value": 157000000,
+              "state": "numeric",
+              "confidence": 0.979285,
+              "bbox": [
+                1620.0,
+                1923.0,
+                1803.0,
+                1952.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "141.483.500",
+              "value": 141483500,
+              "state": "numeric",
+              "confidence": 0.974867,
+              "bbox": [
+                1962.0,
+                1926.0,
+                2145.0,
+                1953.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.966127,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r20",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r22",
+          "raw_label": "Hisse Senedi İhraç Primleri",
+          "normalized_label": "Hisse Senedi İhraç Primleri",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            333,
+            1962,
+            756,
+            2001
+          ],
+          "values": {
+            "c1": {
+              "raw": "22.322.361",
+              "value": 22322361,
+              "state": "numeric",
+              "confidence": 0.974987,
+              "bbox": [
+                1635.0,
+                1973.0,
+                1800.0,
+                2001.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "-",
+              "value": null,
+              "state": "dash",
+              "confidence": 0.956434,
+              "bbox": [
+                2135.0,
+                1991.0,
+                2147.0,
+                1995.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.94502,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r20",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r23",
+          "raw_label": "Sermaye Rezervleri",
+          "normalized_label": "Sermaye Rezervleri",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            335,
+            2016,
+            632,
+            2051
+          ],
+          "values": {
+            "c1": {
+              "raw": "124.390.608",
+              "value": 124390608,
+              "state": "numeric",
+              "confidence": 0.920795,
+              "bbox": [
+                1619.0,
+                2022.0,
+                1803.0,
+                2049.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "124.390.608",
+              "value": 124390608,
+              "state": "numeric",
+              "confidence": 0.966786,
+              "bbox": [
+                1962.0,
+                2024.0,
+                2144.0,
+                2052.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.948624,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r20",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r24",
+          "raw_label": "Maddi Duran Varlık Yeniden Değerleme Fonu",
+          "normalized_label": "Maddi Duran Varlık Yeniden Değerleme Fonu",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            333,
+            2064,
+            1050,
+            2102
+          ],
+          "values": {
+            "c1": {
+              "raw": "100.574.161",
+              "value": 100574161,
+              "state": "numeric",
+              "confidence": 0.937611,
+              "bbox": [
+                1620.0,
+                2070.0,
+                1800.0,
+                2099.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "111.878.913",
+              "value": 111878913,
+              "state": "numeric",
+              "confidence": 0.97868,
+              "bbox": [
+                1962.0,
+                2073.0,
+                2144.0,
+                2100.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.957801,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r20",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r25",
+          "raw_label": "Kardan Ayrılan Kısıtlanmış Yedekler",
+          "normalized_label": "Kardan Ayrılan Kısıtlanmış Yedekler",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            336,
+            2114,
+            912,
+            2151
+          ],
+          "values": {
+            "c1": {
+              "raw": "2.569.141",
+              "value": 2569141,
+              "state": "numeric",
+              "confidence": 0.970003,
+              "bbox": [
+                1653.0,
+                2123.0,
+                1800.0,
+                2151.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "53.036",
+              "value": 53036,
+              "state": "numeric",
+              "confidence": 0.9826,
+              "bbox": [
+                2043.0,
+                2124.0,
+                2145.0,
+                2153.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.965803,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r20",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r26",
+          "raw_label": "Geçmiş Yıllar Karları / (Zararları)",
+          "normalized_label": "Geçmiş Yıllar Karları / (Zararları)",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            337,
+            2166,
+            864,
+            2204
+          ],
+          "values": {
+            "c1": {
+              "raw": "111.301.075",
+              "value": 111301075,
+              "state": "numeric",
+              "confidence": 0.977837,
+              "bbox": [
+                1620.0,
+                2174.0,
+                1803.0,
+                2201.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "(46.784.714)",
+              "value": -46784714,
+              "state": "numeric",
+              "confidence": 0.95018,
+              "bbox": [
+                1964.0,
+                2175.0,
+                2157.0,
+                2211.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.960202,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r20",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r27",
+          "raw_label": "Net Dönem Karı",
+          "normalized_label": "Net Dönem Karı",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            335,
+            2220,
+            590,
+            2247
+          ],
+          "values": {
+            "c1": {
+              "raw": "9.060.587",
+              "value": 9060587,
+              "state": "numeric",
+              "confidence": 0.977509,
+              "bbox": [
+                1654.0,
+                2228.0,
+                1803.0,
+                2256.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "161.642.510",
+              "value": 161642510,
+              "state": "numeric",
+              "confidence": 0.981462,
+              "bbox": [
+                1962.0,
+                2231.0,
+                2145.0,
+                2258.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.970119,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p6-t1-r20",
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          },
+          "financial_role": "balance_parent_profit"
+        },
+        {
+          "id": "summary-p6-t1-r28",
+          "raw_label": "Kontrol Gücü Olmayan Paylar",
+          "normalized_label": "Kontrol Gücü Olmayan Paylar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            297,
+            2273,
+            802,
+            2310
+          ],
+          "values": {
+            "c1": {
+              "raw": "125.227.149",
+              "value": 125227149,
+              "state": "numeric",
+              "confidence": 0.981136,
+              "bbox": [
+                1617.0,
+                2279.0,
+                1803.0,
+                2307.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "126.915.867",
+              "value": 126915867,
+              "state": "numeric",
+              "confidence": 0.982413,
+              "bbox": [
+                1959.0,
+                2280.0,
+                2145.0,
+                2309.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.975231,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "line_item",
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p6-t1-r19",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          }
+        },
+        {
+          "id": "summary-p6-t1-r29",
+          "raw_label": "TOPLAM KAYNAKLAR",
+          "normalized_label": "TOPLAM KAYNAKLAR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            297,
+            2324,
+            723,
+            2354
+          ],
+          "values": {
+            "c1": {
+              "raw": "852.149.804",
+              "value": 852149804,
+              "state": "numeric",
+              "confidence": 0.860838,
+              "bbox": [
+                1615.0,
+                2325.0,
+                1803.0,
+                2354.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "781.408.277",
+              "value": 781408277,
+              "state": "numeric",
+              "confidence": 0.866626,
+              "bbox": [
+                1958.0,
+                2328.0,
+                2145.0,
+                2357.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.903594,
+          "warnings": [],
+          "source_page": 6,
+          "low_confidence": false,
+          "row_type": "grand_total",
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "indentation",
+              "leading_marker",
+              "capitalization",
+              "numeric_presence"
+            ]
+          },
+          "component_ids": [
+            "summary-p6-t1-r2",
+            "summary-p6-t1-r14",
+            "summary-p6-t1-r19"
+          ],
+          "aggregation_rule": "balance_total_sum"
+        }
+      ],
+      "region": [
+        0.0,
+        1.0
+      ],
+      "low_confidence": false,
+      "warnings": []
+    },
+    {
+      "id": "summary-p7-t1",
+      "page": 7,
+      "title": "YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "kind": "summary",
+      "columns": [
+        {
+          "id": "c1",
+          "title": "Denetimden Geçmiş 1 Ocak- 1 31 Aralik. 31 2012",
+          "period": "2012",
+          "x_right": 1883.0
+        },
+        {
+          "id": "c2",
+          "title": "Denetimden Geçmiş 1 Ocak- 31 Arahk 2011",
+          "period": "2011",
+          "x_right": 2144
+        }
+      ],
+      "periods": [
+        "2012",
+        "2011"
+      ],
+      "currency": "TRY",
+      "unit_raw": "(Tüm tutarlar Türk Lirası (TL) olarak gösterilmiştir)",
+      "confidence": 0.937612,
+      "rows": [
+        {
+          "id": "summary-p7-t1-r1",
+          "raw_label": "Satış Gelirleri",
+          "normalized_label": "Satış Gelirleri",
+          "note_reference": [
+            20
+          ],
+          "note_reference_bbox": [
+            1483,
+            895,
+            1520,
+            923
+          ],
+          "bbox": [
+            330,
+            889,
+            541,
+            924
+          ],
+          "values": {
+            "c1": {
+              "raw": "77.043.573",
+              "value": 77043573,
+              "state": "numeric",
+              "confidence": 0.917255,
+              "bbox": [
+                1704.0,
+                897.0,
+                1869.0,
+                926.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "76.431.595",
+              "value": 76431595,
+              "state": "numeric",
+              "confidence": 0.95914,
+              "bbox": [
+                1976.0,
+                898.0,
+                2144.0,
+                928.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.943217,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 5,
+            "parent_id": "summary-p7-t1-r3",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r2",
+          "raw_label": "Satışların Maliyeti (-)",
+          "normalized_label": "Satışların Maliyeti (-)",
+          "note_reference": [
+            20
+          ],
+          "note_reference_bbox": [
+            1483,
+            946,
+            1520,
+            975
+          ],
+          "bbox": [
+            330,
+            940,
+            657,
+            977
+          ],
+          "values": {
+            "c1": {
+              "raw": "(49.167.330)",
+              "value": -49167330,
+              "state": "numeric",
+              "confidence": 0.979726,
+              "bbox": [
+                1692.0,
+                948.0,
+                1884.0,
+                983.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "(44.411.839)",
+              "value": -44411839,
+              "state": "numeric",
+              "confidence": 0.960201,
+              "bbox": [
+                1962.0,
+                949.0,
+                2156.0,
+                992.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.958348,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 5,
+            "parent_id": "summary-p7-t1-r3",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r3",
+          "raw_label": "BRÜT KAR",
+          "normalized_label": "BRÜT KAR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            308,
+            1015,
+            507,
+            1050
+          ],
+          "values": {
+            "c1": {
+              "raw": "27.876.243",
+              "value": 27876243,
+              "state": "numeric",
+              "confidence": 0.960721,
+              "bbox": [
+                1703.0,
+                1029.0,
+                1871.0,
+                1058.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "32.019.756",
+              "value": 32019756,
+              "state": "numeric",
+              "confidence": 0.961781,
+              "bbox": [
+                1974.0,
+                1032.0,
+                2144.0,
+                1059.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.944424,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 4,
+            "parent_id": "summary-p7-t1-r9",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "subtotal",
+          "financial_role": "gross_profit",
+          "component_ids": [
+            "summary-p7-t1-r1",
+            "summary-p7-t1-r2"
+          ],
+          "aggregation_rule": "gross_profit_sum"
+        },
+        {
+          "id": "summary-p7-t1-r4",
+          "raw_label": "Pazarlama, Satış ve Dağıtım Giderleri (-)",
+          "normalized_label": "Pazarlama, Satış ve Dağıtım Giderleri (-)",
+          "note_reference": [
+            21
+          ],
+          "note_reference_bbox": [
+            1483,
+            1099,
+            1517,
+            1127
+          ],
+          "bbox": [
+            327,
+            1092,
+            953,
+            1131
+          ],
+          "values": {
+            "c1": {
+              "raw": "(10.043.970)",
+              "value": -10043970,
+              "state": "numeric",
+              "confidence": 0.976867,
+              "bbox": [
+                1692.0,
+                1101.0,
+                1884.0,
+                1137.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "(9.733.892)",
+              "value": -9733892,
+              "state": "numeric",
+              "confidence": 0.932932,
+              "bbox": [
+                1982.0,
+                1102.0,
+                2156.0,
+                1139.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.952153,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 4,
+            "parent_id": "summary-p7-t1-r9",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r5",
+          "raw_label": "Genel Yönetim Giderleri (-)",
+          "normalized_label": "Genel Yönetim Giderleri (-)",
+          "note_reference": [
+            21
+          ],
+          "note_reference_bbox": [
+            1483,
+            1150,
+            1517,
+            1178
+          ],
+          "bbox": [
+            328,
+            1143,
+            753,
+            1181
+          ],
+          "values": {
+            "c1": {
+              "raw": "(13.500.342)",
+              "value": -13500342,
+              "state": "numeric",
+              "confidence": 0.977297,
+              "bbox": [
+                1692.0,
+                1152.0,
+                1884.0,
+                1191.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "(2.680.177)",
+              "value": -2680177,
+              "state": "numeric",
+              "confidence": 0.950096,
+              "bbox": [
+                1982.0,
+                1153.0,
+                2156.0,
+                1190.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.958545,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 4,
+            "parent_id": "summary-p7-t1-r9",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r6",
+          "raw_label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
+          "normalized_label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
+          "note_reference": [
+            11
+          ],
+          "note_reference_bbox": [
+            1486,
+            1198,
+            1517,
+            1226
+          ],
+          "bbox": [
+            327,
+            1194,
+            1080,
+            1230
+          ],
+          "values": {
+            "c1": {
+              "raw": "3.896.434",
+              "value": 3896434,
+              "state": "numeric",
+              "confidence": 0.963917,
+              "bbox": [
+                1722.0,
+                1200.0,
+                1872.0,
+                1229.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "151.350.000",
+              "value": 151350000,
+              "state": "numeric",
+              "confidence": 0.960592,
+              "bbox": [
+                1959.0,
+                1201.0,
+                2144.0,
+                1230.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.963787,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 4,
+            "parent_id": "summary-p7-t1-r9",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r7",
+          "raw_label": ". Diger Faaliyet Gelirleri",
+          "normalized_label": "Diger Faaliyet Gelirleri",
+          "note_reference": [
+            23
+          ],
+          "note_reference_bbox": [
+            1483,
+            1249,
+            1518,
+            1277
+          ],
+          "bbox": [
+            82,
+            1242,
+            681,
+            1278
+          ],
+          "values": {
+            "c1": {
+              "raw": "105.590",
+              "value": 105590,
+              "state": "numeric",
+              "confidence": 0.962723,
+              "bbox": [
+                1754.0,
+                1251.0,
+                1872.0,
+                1280.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "5.030.355",
+              "value": 5030355,
+              "state": "numeric",
+              "confidence": 0.981585,
+              "bbox": [
+                1995.0,
+                1252.0,
+                2144.0,
+                1281.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.950442,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 4,
+            "parent_id": "summary-p7-t1-r9",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r8",
+          "raw_label": "Diğer Faaliyet Giderleri (-)",
+          "normalized_label": "Diğer Faaliyet Giderleri (-)",
+          "note_reference": [
+            23
+          ],
+          "note_reference_bbox": [
+            1483,
+            1300,
+            1517,
+            1328
+          ],
+          "bbox": [
+            325,
+            1293,
+            737,
+            1331
+          ],
+          "values": {
+            "c1": {
+              "raw": "(346.564)",
+              "value": -346564,
+              "state": "numeric",
+              "confidence": 0.97228,
+              "bbox": [
+                1739.0,
+                1302.0,
+                1884.0,
+                1337.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "(561.989)",
+              "value": -561989,
+              "state": "numeric",
+              "confidence": 0.961621,
+              "bbox": [
+                2010.0,
+                1303.0,
+                2156.0,
+                1340.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.955764,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 4,
+            "parent_id": "summary-p7-t1-r9",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r9",
+          "raw_label": "FAALİYET KARI",
+          "normalized_label": "FAALİYET KARI",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            306,
+            1368,
+            609,
+            1404
+          ],
+          "values": {
+            "c1": {
+              "raw": "7.987.391",
+              "value": 7987391,
+              "state": "numeric",
+              "confidence": 0.962722,
+              "bbox": [
+                1722.0,
+                1383.0,
+                1871.0,
+                1410.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "175.424.053",
+              "value": 175424053,
+              "state": "numeric",
+              "confidence": 0.953951,
+              "bbox": [
+                1958.0,
+                1384.0,
+                2144.0,
+                1412.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.942322,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p7-t1-r13",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "subtotal",
+          "financial_role": "operating_profit",
+          "component_ids": [
+            "summary-p7-t1-r3",
+            "summary-p7-t1-r4",
+            "summary-p7-t1-r5",
+            "summary-p7-t1-r6",
+            "summary-p7-t1-r7",
+            "summary-p7-t1-r8"
+          ],
+          "aggregation_rule": "operating_profit_sum"
+        },
+        {
+          "id": "summary-p7-t1-r10",
+          "raw_label": "Özkaynak Yöntemiyle Degerlenen Yatırımların Kar/Zararlarındaki Paylar",
+          "normalized_label": "Özkaynak Yöntemiyle Degerlenen Yatırımların Kar/Zararlarındaki Paylar",
+          "note_reference": [
+            6
+          ],
+          "note_reference_bbox": [
+            1492,
+            1524,
+            1509,
+            1551
+          ],
+          "bbox": [
+            327,
+            1465,
+            1047,
+            1556
+          ],
+          "values": {
+            "c1": {
+              "raw": "71.896",
+              "value": 71896,
+              "state": "numeric",
+              "confidence": 0.959261,
+              "bbox": [
+                1770.0,
+                1527.0,
+                1871.0,
+                1554.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "-",
+              "value": null,
+              "state": "dash",
+              "confidence": 0.96104,
+              "bbox": [
+                2132.0,
+                1545.0,
+                2145.0,
+                1550.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.944289,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p7-t1-r13",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r11",
+          "raw_label": "(Esas Faaliyet Dışı) Finansal Gelirler",
+          "normalized_label": "(Esas Faaliyet Dışı) Finansal Gelirler",
+          "note_reference": [
+            24
+          ],
+          "note_reference_bbox": [
+            1482,
+            1575,
+            1520,
+            1602
+          ],
+          "bbox": [
+            325,
+            1569,
+            894,
+            1605
+          ],
+          "values": {
+            "c1": {
+              "raw": "19.727.437",
+              "value": 19727437,
+              "state": "numeric",
+              "confidence": 0.945056,
+              "bbox": [
+                1707.0,
+                1576.0,
+                1872.0,
+                1605.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "13.834.817",
+              "value": 13834817,
+              "state": "numeric",
+              "confidence": 0.966602,
+              "bbox": [
+                1979.0,
+                1579.0,
+                2145.0,
+                1607.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.958645,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p7-t1-r13",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r12",
+          "raw_label": "(Esas Faaliyet Dışı) Finansal Giderler (-)",
+          "normalized_label": "(Esas Faaliyet Dışı) Finansal Giderler (-)",
+          "note_reference": [
+            25
+          ],
+          "note_reference_bbox": [
+            1482,
+            1626,
+            1518,
+            1653
+          ],
+          "bbox": [
+            325,
+            1620,
+            950,
+            1658
+          ],
+          "values": {
+            "c1": {
+              "raw": "(16.289.551)",
+              "value": -16289551,
+              "state": "numeric",
+              "confidence": 0.857539,
+              "bbox": [
+                1691.0,
+                1627.0,
+                1884.0,
+                1664.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null,
+              "ocr_alternatives": [
+                {
+                  "raw": "(16.289.551)",
+                  "value": -16289551,
+                  "source": "original"
+                },
+                {
+                  "raw": "(16.289.551)",
+                  "value": -16289551,
+                  "source": "preprocessed"
+                },
+                {
+                  "raw": "(16.289.551)",
+                  "value": -16289551,
+                  "source": "crop_psm7"
+                }
+              ],
+              "agreement": 1.0
+            },
+            "c2": {
+              "raw": "(24.329.214)",
+              "value": -24329214,
+              "state": "numeric",
+              "confidence": 0.960682,
+              "bbox": [
+                1962.0,
+                1629.0,
+                2156.0,
+                1665.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.92855,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p7-t1-r13",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r13",
+          "raw_label": "VERGİ ÖNCESİ KAR",
+          "normalized_label": "VERGİ ÖNCESİ KAR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            303,
+            1727,
+            675,
+            1763
+          ],
+          "values": {
+            "c1": {
+              "raw": "11.497.173",
+              "value": 11497173,
+              "state": "numeric",
+              "confidence": 0.5788586666666666,
+              "bbox": [
+                1704.0,
+                1742.0,
+                1871.0,
+                1769.0
+              ],
+              "low_confidence": true,
+              "warnings": [
+                "corrected_by_independent_ocr_agreement",
+                "ocr_variants_disagree"
+              ],
+              "unit": null,
+              "ocr_alternatives": [
+                {
+                  "raw": "114971173",
+                  "value": 114971173,
+                  "source": "original"
+                },
+                {
+                  "raw": "11.497.173",
+                  "value": 11497173,
+                  "source": "preprocessed"
+                },
+                {
+                  "raw": "11.497.173",
+                  "value": 11497173,
+                  "source": "crop_psm7"
+                }
+              ],
+              "agreement": 0.6666666666666666,
+              "initial_raw": "114971173"
+            },
+            "c2": {
+              "raw": "164.929.656",
+              "value": 164929656,
+              "state": "numeric",
+              "confidence": 0.897836,
+              "bbox": [
+                1958.0,
+                1743.0,
+                2145.0,
+                1772.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.841513,
+          "warnings": [
+            "dash_glyph_next_to_number_ignored"
+          ],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p7-t1-r17",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "subtotal",
+          "financial_role": "pretax_profit",
+          "component_ids": [
+            "summary-p7-t1-r9",
+            "summary-p7-t1-r10",
+            "summary-p7-t1-r11",
+            "summary-p7-t1-r12"
+          ],
+          "aggregation_rule": "pretax_profit_sum"
+        },
+        {
+          "id": "summary-p7-t1-r14",
+          "raw_label": "Vergi Gelir / (Gideri)",
+          "normalized_label": "Vergi Gelir / (Gideri)",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            303,
+            1832,
+            651,
+            1868
+          ],
+          "values": {
+            "c1": {
+              "raw": "(778.217)",
+              "value": -778217,
+              "state": "numeric",
+              "confidence": 0.974936,
+              "bbox": [
+                1739.0,
+                1834.0,
+                1883.0,
+                1880.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "(3.015.405)",
+              "value": -3015405,
+              "state": "numeric",
+              "confidence": 0.957062,
+              "bbox": [
+                1982.0,
+                1842.0,
+                2156.0,
+                1878.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.963097,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p7-t1-r17",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "subtotal",
+          "financial_role": "income_tax",
+          "component_ids": [
+            "summary-p7-t1-r15",
+            "summary-p7-t1-r16"
+          ],
+          "aggregation_rule": "income_tax_sum"
+        },
+        {
+          "id": "summary-p7-t1-r15",
+          "raw_label": "Dönem Vergi Gideri",
+          "normalized_label": "Dönem Vergi Gideri",
+          "note_reference": [
+            26
+          ],
+          "note_reference_bbox": [
+            1482,
+            1889,
+            1518,
+            1917
+          ],
+          "bbox": [
+            323,
+            1883,
+            635,
+            1917
+          ],
+          "values": {
+            "c1": {
+              "raw": "(676.668)",
+              "value": -676668,
+              "state": "numeric",
+              "confidence": 0.979754,
+              "bbox": [
+                1739.0,
+                1890.0,
+                1883.0,
+                1926.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "(3.742.633)",
+              "value": -3742633,
+              "state": "numeric",
+              "confidence": 0.961205,
+              "bbox": [
+                1982.0,
+                1892.0,
+                2156.0,
+                1929.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.966594,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p7-t1-r14",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r16",
+          "raw_label": "Ertelenmiş Vergi Geliri",
+          "normalized_label": "Ertelenmiş Vergi Geliri",
+          "note_reference": [
+            26
+          ],
+          "note_reference_bbox": [
+            1482,
+            1940,
+            1518,
+            1967
+          ],
+          "bbox": [
+            322,
+            1934,
+            682,
+            1968
+          ],
+          "values": {
+            "c1": {
+              "raw": "(101.549)",
+              "value": -101549,
+              "state": "numeric",
+              "confidence": 0.980564,
+              "bbox": [
+                1737.0,
+                1941.0,
+                1884.0,
+                1977.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "727.228",
+              "value": 727228,
+              "state": "numeric",
+              "confidence": 0.974387,
+              "bbox": [
+                2024.0,
+                1944.0,
+                2144.0,
+                1973.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.969387,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 3,
+            "parent_id": "summary-p7-t1-r14",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r17",
+          "raw_label": "DÖNEM KARI",
+          "normalized_label": "DÖNEM KARI",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            302,
+            2027,
+            555,
+            2061
+          ],
+          "values": {
+            "c1": {
+              "raw": "10.718.956",
+              "value": 10718956,
+              "state": "numeric",
+              "confidence": 0.958767,
+              "bbox": [
+                1704.0,
+                2037.0,
+                1871.0,
+                2066.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "161.914.251",
+              "value": 161914251,
+              "state": "numeric",
+              "confidence": 0.912461,
+              "bbox": [
+                1958.0,
+                2039.0,
+                2142.0,
+                2067.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.934029,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p7-t1-r25",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "subtotal",
+          "financial_role": "net_profit",
+          "component_ids": [
+            "summary-p7-t1-r13",
+            "summary-p7-t1-r14"
+          ],
+          "aggregation_rule": "net_profit_sum"
+        },
+        {
+          "id": "summary-p7-t1-r18",
+          "raw_label": "Dönem Karı Dağılımı",
+          "normalized_label": "Dönem Karı Dağılımı",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            302,
+            2099,
+            651,
+            2135
+          ],
+          "values": {
+            "c1": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.537704,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            },
+            "c2": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.537704,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            }
+          },
+          "confidence": 0.60872,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "flat_table_layout"
+            ]
+          },
+          "row_type": "section"
+        },
+        {
+          "id": "summary-p7-t1-r19",
+          "raw_label": "Kontrol Gücü Olmayan Paylar",
+          "normalized_label": "Kontrol Gücü Olmayan Paylar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            301,
+            2150,
+            762,
+            2186
+          ],
+          "values": {
+            "c1": {
+              "raw": "1.658.369",
+              "value": 1658369,
+              "state": "numeric",
+              "confidence": 0.963198,
+              "bbox": [
+                1725.0,
+                2157.0,
+                1871.0,
+                2186.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "271.741",
+              "value": 271741,
+              "state": "numeric",
+              "confidence": 0.974977,
+              "bbox": [
+                2022.0,
+                2160.0,
+                2141.0,
+                2187.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.967402,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p7-t1-r18",
+            "evidence": [
+              "distribution_section"
+            ]
+          },
+          "row_type": "line_item",
+          "distribution_of": "summary-p7-t1-r17"
+        },
+        {
+          "id": "summary-p7-t1-r20",
+          "raw_label": "Ana Ortaklık Payları",
+          "normalized_label": "Ana Ortaklık Payları",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            301,
+            2199,
+            616,
+            2235
+          ],
+          "values": {
+            "c1": {
+              "raw": "9.060.587",
+              "value": 9060587,
+              "state": "numeric",
+              "confidence": 0.957502,
+              "bbox": [
+                1722.0,
+                2208.0,
+                1871.0,
+                2237.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "161.642.510",
+              "value": 161642510,
+              "state": "numeric",
+              "confidence": 0.973717,
+              "bbox": [
+                1959.0,
+                2210.0,
+                2144.0,
+                2238.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.959139,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p7-t1-r18",
+            "evidence": [
+              "distribution_section"
+            ]
+          },
+          "row_type": "line_item",
+          "distribution_of": "summary-p7-t1-r17",
+          "financial_role": "parent_profit"
+        },
+        {
+          "id": "summary-p7-t1-r21",
+          "raw_label": "",
+          "normalized_label": "[unlabelled total]",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            1704,
+            2253,
+            2142,
+            2283
+          ],
+          "values": {
+            "c1": {
+              "raw": "10.718.956",
+              "value": 10718956,
+              "state": "numeric",
+              "confidence": 0.95687,
+              "bbox": [
+                1704.0,
+                2253.0,
+                1871.0,
+                2280.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "161.914.251",
+              "value": 161914251,
+              "state": "numeric",
+              "confidence": 0.974943,
+              "bbox": [
+                1956.0,
+                2253.0,
+                2142.0,
+                2283.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.85818,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "flat_table_layout"
+            ]
+          },
+          "row_type": "total",
+          "component_ids": [
+            "summary-p7-t1-r19",
+            "summary-p7-t1-r20"
+          ],
+          "aggregation_rule": "distribution_sum",
+          "reconciles_to": "summary-p7-t1-r17"
+        },
+        {
+          "id": "summary-p7-t1-r22",
+          "raw_label": "Hisse başına kazanç",
+          "normalized_label": "Hisse başına kazanç",
+          "note_reference": [
+            27
+          ],
+          "note_reference_bbox": [
+            1480,
+            2315,
+            1518,
+            2342
+          ],
+          "bbox": [
+            300,
+            2309,
+            624,
+            2343
+          ],
+          "values": {
+            "c1": {
+              "raw": "0,058",
+              "value": 0.058,
+              "state": "numeric",
+              "confidence": 0.963614,
+              "bbox": [
+                1788.0,
+                2316.0,
+                1871.0,
+                2349.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "1,191",
+              "value": 1.191,
+              "state": "numeric",
+              "confidence": 0.975959,
+              "bbox": [
+                2061.0,
+                2319.0,
+                2142.0,
+                2351.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.965046,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "flat_table_layout"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r23",
+          "raw_label": "Diğer Kapsamlı (Gider) / Gelir",
+          "normalized_label": "Diğer Kapsamlı (Gider) / Gelir",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            300,
+            2408,
+            806,
+            2444
+          ],
+          "values": {
+            "c1": {
+              "raw": "(19.846.865)",
+              "value": -19846865,
+              "state": "numeric",
+              "confidence": 0.980998,
+              "bbox": [
+                1691.0,
+                2412.0,
+                1883.0,
+                2448.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "196.292.383",
+              "value": 196292383,
+              "state": "numeric",
+              "confidence": 0.90439,
+              "bbox": [
+                1959.0,
+                2414.0,
+                2142.0,
+                2442.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.952542,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p7-t1-r25",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "subtotal",
+          "financial_role": "other_comprehensive_income",
+          "component_ids": [
+            "summary-p7-t1-r24"
+          ],
+          "aggregation_rule": "other_comprehensive_income_sum"
+        },
+        {
+          "id": "summary-p7-t1-r24",
+          "raw_label": "Duran Varlıklar Değer Artış Fonundaki Değişim",
+          "normalized_label": "Duran Varlıklar Değer Artış Fonundaki Değişim",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            300,
+            2454,
+            1043,
+            2492
+          ],
+          "values": {
+            "c1": {
+              "raw": "(19.846.865)",
+              "value": -19846865,
+              "state": "numeric",
+              "confidence": 0.958895,
+              "bbox": [
+                1691.0,
+                2460.0,
+                1883.0,
+                2496.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "196.292.383",
+              "value": 196292383,
+              "state": "numeric",
+              "confidence": 0.976432,
+              "bbox": [
+                1959.0,
+                2462.0,
+                2142.0,
+                2492.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.965044,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 2,
+            "parent_id": "summary-p7-t1-r23",
+            "evidence": [
+              "statement_role",
+              "row_order"
+            ]
+          },
+          "row_type": "line_item"
+        },
+        {
+          "id": "summary-p7-t1-r25",
+          "raw_label": "TOPLAM KAPSAMLI (GİDER) / GELİR",
+          "normalized_label": "TOPLAM KAPSAMLI (GİDER) / GELİR",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            300,
+            2547,
+            996,
+            2589
+          ],
+          "values": {
+            "c1": {
+              "raw": "(9.127.909)",
+              "value": -9127909,
+              "state": "numeric",
+              "confidence": 0.951253,
+              "bbox": [
+                1709.0,
+                2556.0,
+                1883.0,
+                2591.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "358.206.634",
+              "value": 358206634,
+              "state": "numeric",
+              "confidence": 0.979775,
+              "bbox": [
+                1955.0,
+                2558.0,
+                2144.0,
+                2586.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.954838,
+          "warnings": [
+            "dash_glyph_next_to_number_ignored"
+          ],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "flat_table_layout"
+            ]
+          },
+          "row_type": "grand_total",
+          "financial_role": "comprehensive_income",
+          "component_ids": [
+            "summary-p7-t1-r17",
+            "summary-p7-t1-r23"
+          ],
+          "aggregation_rule": "comprehensive_income_sum"
+        },
+        {
+          "id": "summary-p7-t1-r26",
+          "raw_label": "Toplam Kapsamlı (Giderin) / Gelirin Dağılımı",
+          "normalized_label": "Toplam Kapsamlı (Giderin) / Gelirin Dağılımı",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            300,
+            2622,
+            1055,
+            2660
+          ],
+          "values": {
+            "c1": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.537704,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            },
+            "c2": {
+              "raw": "",
+              "value": null,
+              "state": "blank",
+              "confidence": 0.537704,
+              "bbox": null,
+              "low_confidence": true,
+              "warnings": [
+                "cell_evidence_below_threshold"
+              ],
+              "unit": null
+            }
+          },
+          "confidence": 0.604207,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "flat_table_layout"
+            ]
+          },
+          "row_type": "section"
+        },
+        {
+          "id": "summary-p7-t1-r27",
+          "raw_label": "Kontrol Gücü Olmayan Paylar",
+          "normalized_label": "Kontrol Gücü Olmayan Paylar",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            299,
+            2672,
+            759,
+            2708
+          ],
+          "values": {
+            "c1": {
+              "raw": "(6.883.744)",
+              "value": -6883744,
+              "state": "numeric",
+              "confidence": 0.977598,
+              "bbox": [
+                1709.0,
+                2679.0,
+                1883.0,
+                2715.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "84.685.211",
+              "value": 84685211,
+              "state": "numeric",
+              "confidence": 0.973781,
+              "bbox": [
+                1976.0,
+                2682.0,
+                2141.0,
+                2711.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.962026,
+          "warnings": [],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p7-t1-r26",
+            "evidence": [
+              "distribution_section"
+            ]
+          },
+          "row_type": "line_item",
+          "distribution_of": "summary-p7-t1-r25"
+        },
+        {
+          "id": "summary-p7-t1-r28",
+          "raw_label": "Ana Ortaklık Payları",
+          "normalized_label": "Ana Ortaklık Payları",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            299,
+            2723,
+            614,
+            2759
+          ],
+          "values": {
+            "c1": {
+              "raw": "(2.244.165)",
+              "value": -2244165,
+              "state": "numeric",
+              "confidence": 0.919468,
+              "bbox": [
+                1709.0,
+                2732.0,
+                1883.0,
+                2772.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "273.521.423",
+              "value": 273521423,
+              "state": "numeric",
+              "confidence": 0.913971,
+              "bbox": [
+                1955.0,
+                2733.0,
+                2141.0,
+                2762.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            }
+          },
+          "confidence": 0.930645,
+          "warnings": [
+            "dash_glyph_next_to_number_ignored"
+          ],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 1,
+            "parent_id": "summary-p7-t1-r26",
+            "evidence": [
+              "distribution_section"
+            ]
+          },
+          "row_type": "line_item",
+          "distribution_of": "summary-p7-t1-r25"
+        },
+        {
+          "id": "summary-p7-t1-r29",
+          "raw_label": "",
+          "normalized_label": "[unlabelled total]",
+          "note_reference": [],
+          "note_reference_bbox": null,
+          "bbox": [
+            1709,
+            2774,
+            2144,
+            2820
+          ],
+          "values": {
+            "c1": {
+              "raw": "(9.127.909)",
+              "value": -9127909,
+              "state": "numeric",
+              "confidence": 0.948292,
+              "bbox": [
+                1709.0,
+                2778.0,
+                1883.0,
+                2814.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null
+            },
+            "c2": {
+              "raw": "358.206.634",
+              "value": 358206634,
+              "state": "numeric",
+              "confidence": 0.826118,
+              "bbox": [
+                1955.0,
+                2780.0,
+                2144.0,
+                2808.0
+              ],
+              "low_confidence": false,
+              "warnings": [],
+              "unit": null,
+              "ocr_alternatives": [
+                {
+                  "raw": "358.206.634",
+                  "value": 358206634,
+                  "source": "original"
+                },
+                {
+                  "raw": "358.206.634",
+                  "value": 358206634,
+                  "source": "preprocessed"
+                },
+                {
+                  "raw": "358.206.634",
+                  "value": 358206634,
+                  "source": "crop_psm7"
+                }
+              ],
+              "agreement": 1.0
+            }
+          },
+          "confidence": 0.798287,
+          "warnings": [
+            "dash_glyph_next_to_number_ignored"
+          ],
+          "source_page": 7,
+          "low_confidence": false,
+          "hierarchy": {
+            "level": 0,
+            "parent_id": null,
+            "evidence": [
+              "flat_table_layout"
+            ]
+          },
+          "row_type": "total",
+          "component_ids": [
+            "summary-p7-t1-r27",
+            "summary-p7-t1-r28"
+          ],
+          "aggregation_rule": "distribution_sum",
+          "reconciles_to": "summary-p7-t1-r25"
+        }
+      ],
+      "region": [
+        0.0,
+        1.0
+      ],
+      "low_confidence": false,
+      "warnings": []
+    }
+  ],
+  "notes": [
+    {
+      "number": 11,
+      "title": "YATIRIM AMAÇLI GAYRİMENKULLER",
+      "start_page": 53,
+      "end_page": 54,
+      "start_y": 0.13034188034188035,
+      "end_y": 1.0,
+      "detection_confidence": 0.885573,
+      "heading": {
+        "number": 11,
+        "title": "YATIRIM AMAÇLI GAYRİMENKULLER",
+        "page": 53,
+        "y": 0.13034188034188035,
+        "bottom": 0.14797008547008547,
+        "confidence": 0.885573,
+        "features": {
+          "number": 1.0,
+          "uppercase": 1.0,
+          "length": 1.0,
+          "position": 0.8616452991452992,
+          "size": 0.9940828402366864,
+          "context": 0.0,
+          "semantic": 1.0
+        },
+        "toc": false,
+        "raw": "11. — YATIRIM AMAÇLI GAYRİMENKULLER"
+      },
+      "next_heading": {
+        "number": 12,
+        "title": "MADDİ DURAN VARLIKLAR |",
+        "page": 55,
+        "y": 0.19108761329305135,
+        "bottom": 0.24546827794561935,
+        "confidence": 0.974232,
+        "features": {
+          "number": 1.0,
+          "uppercase": 1.0,
+          "length": 1.0,
+          "position": 0.7987160120845922,
+          "size": 0.9436060365369341,
+          "context": 1.0,
+          "semantic": 1.0
+        },
+        "toc": false,
+        "raw": "12. MADDİ DURAN VARLIKLAR |"
+      },
+      "all_target_headings": [
+        {
+          "number": 11,
+          "title": "YATIRIM AMAÇLI GAYRİMENKULLER",
+          "page": 53,
+          "y": 0.13034188034188035,
+          "bottom": 0.14797008547008547,
+          "confidence": 0.885573,
+          "features": {
+            "number": 1.0,
+            "uppercase": 1.0,
+            "length": 1.0,
+            "position": 0.8616452991452992,
+            "size": 0.9940828402366864,
+            "context": 0.0,
+            "semantic": 1.0
+          },
+          "toc": false,
+          "raw": "11. — YATIRIM AMAÇLI GAYRİMENKULLER"
+        },
+        {
+          "number": 11,
+          "title": "YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+          "page": 54,
+          "y": 0.13247863247863248,
+          "bottom": 0.1469017094017094,
+          "confidence": 0.940603,
+          "features": {
+            "number": 1.0,
+            "uppercase": 0.8181818181818182,
+            "length": 1.0,
+            "position": 0.8605769230769231,
+            "size": 1.0,
+            "context": 1.0,
+            "semantic": 1.0
+          },
+          "toc": false,
+          "raw": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)"
+        },
+        {
+          "number": 11,
+          "title": "UZUN VADELİ YÜKÜMLÜLÜKLER (6.202.594) - (2.770.829) (396.422)",
+          "page": 89,
+          "y": 0.5363247863247863,
+          "bottom": 0.5507478632478633,
+          "confidence": 0.795726,
+          "features": {
+            "number": 1.0,
+            "uppercase": 1.0,
+            "length": 1.0,
+            "position": 0.4572649572649573,
+            "size": 1.0,
+            "context": 1.0,
+            "semantic": 0.0
+          },
+          "toc": false,
+          "raw": "11. UZUN VADELİ YÜKÜMLÜLÜKLER (6.202.594) - (2.770.829) (396.422)"
+        }
+      ],
+      "warnings": [],
+      "tables": [
+        {
+          "id": "note-p53-t1",
+          "page": 53,
+          "title": "YATIRIM AMAÇLI GAYRİMENKULLER",
+          "kind": "note",
+          "columns": [
+            {
+              "id": "c1",
+              "title": "Arazi ve Arsalar",
+              "period": null,
+              "x_right": 1502.0
+            },
+            {
+              "id": "c2",
+              "title": "Binalar",
+              "period": null,
+              "x_right": 1812
+            },
+            {
+              "id": "c3",
+              "title": "Toplam",
+              "period": null,
+              "x_right": 2127.0
+            }
+          ],
+          "periods": [
+            "2012"
+          ],
+          "currency": "TRY",
+          "unit_raw": "(Tüm tutarlar Türk Lirası (TL) olarak gösterilmiştir)",
+          "confidence": 0.776338,
+          "rows": [
+            {
+              "id": "note-p53-t1-r1",
+              "raw_label": "1 Ocak 2012 itibari ile açılış bakiyesi",
+              "normalized_label": "1 Ocak 2012 itibari ile açılış bakiyesi",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                312,
+                742,
+                986,
+                786
+              ],
+              "values": {
+                "c1": {
+                  "raw": "227.317.822",
+                  "value": 227317822,
+                  "state": "numeric",
+                  "confidence": 0.961698,
+                  "bbox": [
+                    1276.0,
+                    747.0,
+                    1502.0,
+                    780.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "196.262.178",
+                  "value": 196262178,
+                  "state": "numeric",
+                  "confidence": 0.979206,
+                  "bbox": [
+                    1590.0,
+                    748.0,
+                    1812.0,
+                    782.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c3": {
+                  "raw": "423.580.000",
+                  "value": 423580000,
+                  "state": "numeric",
+                  "confidence": 0.979464,
+                  "bbox": [
+                    1899.0,
+                    750.0,
+                    2126.0,
+                    785.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.971736,
+              "warnings": [],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2012",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t1-r2",
+              "raw_label": "Alım sonrası yapılan harcamalar",
+              "normalized_label": "Alım sonrası yapılan harcamalar",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                307,
+                802,
+                899,
+                846
+              ],
+              "values": {
+                "c1": {
+                  "raw": "19.197.311",
+                  "value": 19197311,
+                  "state": "numeric",
+                  "confidence": 0.947219,
+                  "bbox": [
+                    1303.0,
+                    807.0,
+                    1497.0,
+                    842.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "-",
+                  "value": null,
+                  "state": "dash",
+                  "confidence": 0.957757,
+                  "bbox": [
+                    1802.0,
+                    829.0,
+                    1814.0,
+                    834.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c3": {
+                  "raw": "19.197.311",
+                  "value": 19197311,
+                  "state": "numeric",
+                  "confidence": 0.972299,
+                  "bbox": [
+                    1926.0,
+                    811.0,
+                    2123.0,
+                    845.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.948076,
+              "warnings": [],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2012",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t1-r3",
+              "raw_label": "Makul değer değişikliğinden kaynaklanan kazanç",
+              "normalized_label": "Makul değer değişikliğinden kaynaklanan kazanç",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                307,
+                864,
+                1196,
+                910
+              ],
+              "values": {
+                "c1": {
+                  "raw": "3.896.434",
+                  "value": 3896434,
+                  "state": "numeric",
+                  "confidence": 0.980195,
+                  "bbox": [
+                    1323.0,
+                    868.0,
+                    1502.0,
+                    902.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "-",
+                  "value": null,
+                  "state": "dash",
+                  "confidence": 0.957119,
+                  "bbox": [
+                    1802.0,
+                    891.0,
+                    1814.0,
+                    896.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c3": {
+                  "raw": "3.896.434",
+                  "value": 3896434,
+                  "state": "numeric",
+                  "confidence": 0.980743,
+                  "bbox": [
+                    1946.0,
+                    873.0,
+                    2127.0,
+                    906.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.961963,
+              "warnings": [],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2012",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t1-r4",
+              "raw_label": "Stoklara transferler (*)",
+              "normalized_label": "Stoklara transferler (*)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                309,
+                940,
+                723,
+                984
+              ],
+              "values": {
+                "c1": {
+                  "raw": "(72.681.523)",
+                  "value": -72681523,
+                  "state": "numeric",
+                  "confidence": 0.963091,
+                  "bbox": [
+                    1284.0,
+                    943.0,
+                    1515.0,
+                    988.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "-",
+                  "value": null,
+                  "state": "dash",
+                  "confidence": 0.956915,
+                  "bbox": [
+                    1802.0,
+                    967.0,
+                    1814.0,
+                    972.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c3": {
+                  "raw": "(72.681.523)",
+                  "value": -72681523,
+                  "state": "numeric",
+                  "confidence": 0.627898,
+                  "bbox": [
+                    1908.0,
+                    948.0,
+                    2142.0,
+                    992.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "(72.681.523)",
+                      "value": -72681523,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "(72.681.523)",
+                      "value": -72681523,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "(72.681.523)",
+                      "value": -72681523,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                }
+              },
+              "confidence": 0.879022,
+              "warnings": [],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2012",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t1-r5",
+              "raw_label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
+              "normalized_label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                307,
+                1030,
+                1071,
+                1076
+              ],
+              "values": {
+                "c1": {
+                  "raw": "177.730.044",
+                  "value": 177730044,
+                  "state": "numeric",
+                  "confidence": 0.811655,
+                  "bbox": [
+                    1280.0,
+                    1035.0,
+                    1502.0,
+                    1068.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "177.730.044",
+                      "value": 177730044,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "177.730.044",
+                      "value": 177730044,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "177.730.044",
+                      "value": 177730044,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                },
+                "c2": {
+                  "raw": "196.262.178",
+                  "value": 196262178,
+                  "state": "numeric",
+                  "confidence": 0.818939,
+                  "bbox": [
+                    1590.0,
+                    1036.0,
+                    1812.0,
+                    1071.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "196.262.178",
+                      "value": 196262178,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "196.262.178",
+                      "value": 196262178,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "196.262.178",
+                      "value": 196262178,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                },
+                "c3": {
+                  "raw": "373.992.222",
+                  "value": 373992222,
+                  "state": "numeric",
+                  "confidence": 0.975207,
+                  "bbox": [
+                    1901.0,
+                    1039.0,
+                    2127.0,
+                    1073.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.903704,
+              "warnings": [
+                "dash_glyph_next_to_number_ignored"
+              ],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2012",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "total"
+            },
+            {
+              "id": "note-p53-t1-r6",
+              "raw_label": "31 Aralık 2012 itibari ile net defter değeri",
+              "normalized_label": "31 Aralık 2012 itibari ile net defter değeri",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                306,
+                1159,
+                1064,
+                1203
+              ],
+              "values": {
+                "c1": {
+                  "raw": "177.730.044",
+                  "value": 177730044,
+                  "state": "numeric",
+                  "confidence": 0.816833,
+                  "bbox": [
+                    1279.0,
+                    1164.0,
+                    1502.0,
+                    1197.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "177.730.044",
+                      "value": 177730044,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "177.730.044",
+                      "value": 177730044,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "177.730.044",
+                      "value": 177730044,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                },
+                "c2": {
+                  "raw": "196.262.178",
+                  "value": 196262178,
+                  "state": "numeric",
+                  "confidence": 0.942673,
+                  "bbox": [
+                    1590.0,
+                    1165.0,
+                    1812.0,
+                    1199.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c3": {
+                  "raw": "373.992.222",
+                  "value": 373992222,
+                  "state": "numeric",
+                  "confidence": 0.97662,
+                  "bbox": [
+                    1901.0,
+                    1167.0,
+                    2127.0,
+                    1200.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.932469,
+              "warnings": [
+                "dash_glyph_next_to_number_ignored"
+              ],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2012",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "total"
+            }
+          ],
+          "region": [
+            0.13034188034188035,
+            0.35190883190883193
+          ],
+          "low_confidence": false,
+          "warnings": [],
+          "note_number": 11
+        },
+        {
+          "id": "note-p53-t2",
+          "page": 53,
+          "title": "YATIRIM AMAÇLI GAYRİMENKULLER",
+          "kind": "note",
+          "columns": [
+            {
+              "id": "c1",
+              "title": "yapılan harcamalar Arazi ve Arsalar",
+              "period": null,
+              "x_right": 1499.0
+            },
+            {
+              "id": "c2",
+              "title": "şeklinde sunulmuştur. Binalar",
+              "period": null,
+              "x_right": 1815
+            },
+            {
+              "id": "c3",
+              "title": "sunulmuştur. Toplam",
+              "period": null,
+              "x_right": 2127
+            }
+          ],
+          "periods": [
+            "2011"
+          ],
+          "currency": "TRY",
+          "unit_raw": "(Tüm tutarlar Türk Lirası (TL) olarak gösterilmiştir)",
+          "confidence": 0.748,
+          "rows": [
+            {
+              "id": "note-p53-t2-r1",
+              "raw_label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+              "normalized_label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                301,
+                1920,
+                1160,
+                2028
+              ],
+              "values": {
+                "c1": {
+                  "raw": "82.097.790",
+                  "value": 82097790,
+                  "state": "numeric",
+                  "confidence": 0.974749,
+                  "bbox": [
+                    1299.0,
+                    1986.0,
+                    1499.0,
+                    2021.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "122937178",
+                  "value": 122937178,
+                  "state": "numeric",
+                  "confidence": 0.904693,
+                  "bbox": [
+                    1589.0,
+                    1989.0,
+                    1815.0,
+                    2024.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "122937178",
+                      "value": 122937178,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "122937178",
+                      "value": 122937178,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "122.937.178",
+                      "value": 122937178,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                },
+                "c3": {
+                  "raw": "205.034.968",
+                  "value": 205034968,
+                  "state": "numeric",
+                  "confidence": 0.849121,
+                  "bbox": [
+                    1899.0,
+                    1991.0,
+                    2127.0,
+                    2025.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "205.034.968",
+                      "value": 205034968,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "205.034.968",
+                      "value": 205034968,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "205.034.968",
+                      "value": 205034968,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                }
+              },
+              "confidence": 0.910606,
+              "warnings": [],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2011",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t2-r2",
+              "raw_label": ": Alımlar (*)",
+              "normalized_label": "Alımlar (*)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                156,
+                2043,
+                504,
+                2087
+              ],
+              "values": {
+                "c1": {
+                  "raw": "64.046.943",
+                  "value": 64046943,
+                  "state": "numeric",
+                  "confidence": 0.973604,
+                  "bbox": [
+                    1297.0,
+                    2048.0,
+                    1497.0,
+                    2082.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "13.598.089",
+                  "value": 13598089,
+                  "state": "numeric",
+                  "confidence": 0.977893,
+                  "bbox": [
+                    1612.0,
+                    2051.0,
+                    1815.0,
+                    2085.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c3": {
+                  "raw": "77.645.032",
+                  "value": 77645032,
+                  "state": "numeric",
+                  "confidence": 0.6357106666666666,
+                  "bbox": [
+                    1923.0,
+                    2052.0,
+                    2129.0,
+                    2087.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [
+                    "ocr_variants_disagree",
+                    "ocr_alternative_selected_using_financial_constraint"
+                  ],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "71.645.032",
+                      "value": 71645032,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "77.645.032",
+                      "value": 77645032,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "71.645.032",
+                      "value": 71645032,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 0.6666666666666666,
+                  "initial_raw": "71.645.032",
+                  "financial_selection": {
+                    "rule": "existing_ocr_alternative_matches_component_sum",
+                    "components": [
+                      64046943,
+                      13598089
+                    ],
+                    "selected_source": "preprocessed",
+                    "independent_validation": false
+                  }
+                }
+              },
+              "confidence": 0.886351,
+              "warnings": [],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2011",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t2-r3",
+              "raw_label": "Çıkışlar (**)",
+              "normalized_label": "Çıkışlar (**)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                303,
+                2105,
+                530,
+                2148
+              ],
+              "values": {
+                "c1": {
+                  "raw": "-",
+                  "value": null,
+                  "state": "dash",
+                  "confidence": 0.953107,
+                  "bbox": [
+                    1486.0,
+                    2142.0,
+                    1500.0,
+                    2147.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "(10.450.000)",
+                  "value": -10450000,
+                  "state": "numeric",
+                  "confidence": 0.707344,
+                  "bbox": [
+                    1593.0,
+                    2123.0,
+                    1830.0,
+                    2168.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "(10.450.000)",
+                      "value": -10450000,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "(10450000)",
+                      "value": -10450000,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "(10.450.000)",
+                      "value": -10450000,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                },
+                "c3": {
+                  "raw": "(10.450.000)",
+                  "value": -10450000,
+                  "state": "numeric",
+                  "confidence": 0.844204,
+                  "bbox": [
+                    1908.0,
+                    2126.0,
+                    2145.0,
+                    2171.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "(10.450.000)",
+                      "value": -10450000,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "(10.450.000)",
+                      "value": -10450000,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "(10.450.000)",
+                      "value": -10450000,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                }
+              },
+              "confidence": 0.84923,
+              "warnings": [
+                "dash_glyph_next_to_number_ignored"
+              ],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2011",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t2-r4",
+              "raw_label": "Makul değer değişikliğinden kaynaklanan kazanç",
+              "normalized_label": "Makul değer değişikliğinden kaynaklanan kazanç",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                300,
+                2238,
+                1193,
+                2285
+              ],
+              "values": {
+                "c1": {
+                  "raw": "81.173.089",
+                  "value": 81173089,
+                  "state": "numeric",
+                  "confidence": 0.654086,
+                  "bbox": [
+                    1298.0,
+                    2246.0,
+                    1499.0,
+                    2280.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [
+                    "ocr_variants_disagree"
+                  ],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "81.173.089",
+                      "value": 81173089,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "089",
+                      "value": 89,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "81.173.089",
+                      "value": 81173089,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 0.6666666666666666
+                },
+                "c2": {
+                  "raw": "70.176.911",
+                  "value": 70176911,
+                  "state": "numeric",
+                  "confidence": 0.971144,
+                  "bbox": [
+                    1608.0,
+                    2247.0,
+                    1812.0,
+                    2282.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c3": {
+                  "raw": "151.350.000",
+                  "value": 151350000,
+                  "state": "numeric",
+                  "confidence": 0.977452,
+                  "bbox": [
+                    1904.0,
+                    2250.0,
+                    2127.0,
+                    2285.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.921539,
+              "warnings": [],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2011",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p53-t2-r5",
+              "raw_label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
+              "normalized_label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                301,
+                2333,
+                1068,
+                2379
+              ],
+              "values": {
+                "c1": {
+                  "raw": "227.317.822",
+                  "value": 227317822,
+                  "state": "numeric",
+                  "confidence": 0.805742,
+                  "bbox": [
+                    1273.0,
+                    2337.0,
+                    1501.0,
+                    2372.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "227.317.822",
+                      "value": 227317822,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "227.317.822",
+                      "value": 227317822,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "227.317.822",
+                      "value": 227317822,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                },
+                "c2": {
+                  "raw": "196262178",
+                  "value": 196262178,
+                  "state": "numeric",
+                  "confidence": 0.737109,
+                  "bbox": [
+                    1588.0,
+                    2339.0,
+                    1814.0,
+                    2373.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "196262178",
+                      "value": 196262178,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "196262178",
+                      "value": 196262178,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "196.262.178",
+                      "value": 196262178,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 1.0
+                },
+                "c3": {
+                  "raw": "423.580.000",
+                  "value": 423580000,
+                  "state": "numeric",
+                  "confidence": 0.974128,
+                  "bbox": [
+                    1899.0,
+                    2342.0,
+                    2127.0,
+                    2376.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.887431,
+              "warnings": [
+                "dash_glyph_next_to_number_ignored",
+                "dash_glyph_next_to_number_ignored"
+              ],
+              "source_page": 53,
+              "low_confidence": false,
+              "period": "2011",
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "total"
+            }
+          ],
+          "region": [
+            0.46780626780626783,
+            0.6863817663817663
+          ],
+          "low_confidence": false,
+          "warnings": [],
+          "note_number": 11
+        },
+        {
+          "id": "note-p54-t1",
+          "page": 54,
+          "title": "YATIRIM AMAÇLI GAYRİMENKULLER",
+          "kind": "note",
+          "columns": [
+            {
+              "id": "c1",
+              "title": "31 Aralık 2012",
+              "period": "2012",
+              "x_right": 1794.0
+            },
+            {
+              "id": "c2",
+              "title": "31 Aralık 2011",
+              "period": "2011",
+              "x_right": 2156.0
+            }
+          ],
+          "periods": [
+            "2012",
+            "2011"
+          ],
+          "currency": null,
+          "unit_raw": "%",
+          "confidence": 0.866573,
+          "rows": [
+            {
+              "id": "note-p54-t1-r1",
+              "raw_label": "İskonto oranı (%)",
+              "normalized_label": "İskonto oranı (%)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                306,
+                924,
+                621,
+                974
+              ],
+              "values": {
+                "c1": {
+                  "raw": "%9",
+                  "value": 9,
+                  "state": "numeric",
+                  "confidence": 0.896996,
+                  "bbox": [
+                    1737.0,
+                    937.0,
+                    1794.0,
+                    971.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": "percent"
+                },
+                "c2": {
+                  "raw": "%10,5",
+                  "value": 10.5,
+                  "state": "numeric",
+                  "confidence": 0.876202,
+                  "bbox": [
+                    2042.0,
+                    939.0,
+                    2156.0,
+                    980.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": "percent"
+                }
+              },
+              "confidence": 0.89616,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p54-t1-r2",
+              "raw_label": "Doluluk oranı (%)(*)",
+              "normalized_label": "Doluluk oranı (%)(*)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                304,
+                991,
+                686,
+                1035
+              ],
+              "values": {
+                "c1": {
+                  "raw": "86,6",
+                  "value": 86.6,
+                  "state": "numeric",
+                  "confidence": 0.568664,
+                  "bbox": [
+                    1680.0,
+                    997.0,
+                    1794.0,
+                    1038.0
+                  ],
+                  "low_confidence": true,
+                  "warnings": [
+                    "ocr_variants_disagree"
+                  ],
+                  "unit": "percent",
+                  "unit_inferred_from_label": true,
+                  "ocr_alternatives": [
+                    {
+                      "raw": "86,6",
+                      "value": 86.6,
+                      "source": "original"
+                    },
+                    {
+                      "raw": "%386,6",
+                      "value": 386.6,
+                      "source": "preprocessed"
+                    },
+                    {
+                      "raw": "086,6",
+                      "value": 86.6,
+                      "source": "crop_psm7"
+                    }
+                  ],
+                  "agreement": 0.6666666666666666
+                },
+                "c2": {
+                  "raw": "%80,8",
+                  "value": 80.8,
+                  "state": "numeric",
+                  "confidence": 0.922242,
+                  "bbox": [
+                    2042.0,
+                    1000.0,
+                    2156.0,
+                    1040.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": "percent"
+                }
+              },
+              "confidence": 0.849319,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p54-t1-r3",
+              "raw_label": "Kira artış oranı (%)",
+              "normalized_label": "Kira artış oranı (%)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                304,
+                1053,
+                662,
+                1097
+              ],
+              "values": {
+                "c1": {
+                  "raw": "%3",
+                  "value": 3,
+                  "state": "numeric",
+                  "confidence": 0.941479,
+                  "bbox": [
+                    1737.0,
+                    1060.0,
+                    1793.0,
+                    1094.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": "percent"
+                },
+                "c2": {
+                  "raw": "%2-%4",
+                  "value": null,
+                  "state": "invalid",
+                  "confidence": 0.230708,
+                  "bbox": [
+                    2024.0,
+                    1060.0,
+                    2157.0,
+                    1095.0
+                  ],
+                  "low_confidence": true,
+                  "warnings": [
+                    "unrecognized_numeric_format",
+                    "cell_evidence_below_threshold"
+                  ],
+                  "unit": "percent"
+                }
+              },
+              "confidence": 0.716605,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            }
+          ],
+          "region": [
+            0.17158119658119658,
+            0.31864672364672364
+          ],
+          "low_confidence": false,
+          "warnings": [],
+          "note_number": 11
+        },
+        {
+          "id": "note-p54-t2",
+          "page": 54,
+          "title": "YATIRIM AMAÇLI GAYRİMENKULLER",
+          "kind": "note",
+          "columns": [
+            {
+              "id": "c1",
+              "title": "31 Aralık 2012",
+              "period": "2012",
+              "x_right": 1779.0
+            },
+            {
+              "id": "c2",
+              "title": "31 Aralık 2011",
+              "period": "2011",
+              "x_right": 2143.0
+            }
+          ],
+          "periods": [
+            "2012",
+            "2011"
+          ],
+          "currency": "TRY",
+          "unit_raw": "(Tüm tutarlar Türk Lirası (TL) olarak gösterilmiştir)",
+          "confidence": 0.95547,
+          "rows": [
+            {
+              "id": "note-p54-t2-r1",
+              "raw_label": "Bağcılar Arsa",
+              "normalized_label": "Bağcılar Arsa",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                303,
+                1653,
+                555,
+                1695
+              ],
+              "values": {
+                "c1": {
+                  "raw": "22.719.446",
+                  "value": 22719446,
+                  "state": "numeric",
+                  "confidence": 0.969828,
+                  "bbox": [
+                    1576.0,
+                    1659.0,
+                    1779.0,
+                    1692.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "21.717.000",
+                  "value": 21717000,
+                  "state": "numeric",
+                  "confidence": 0.980115,
+                  "bbox": [
+                    1937.0,
+                    1660.0,
+                    2142.0,
+                    1694.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.970337,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p54-t2-r2",
+              "raw_label": "Bayrampaşa Arsa (*)",
+              "normalized_label": "Bayrampaşa Arsa (*)",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                303,
+                1715,
+                690,
+                1757
+              ],
+              "values": {
+                "c1": {
+                  "raw": "81.026.895",
+                  "value": 81026895,
+                  "state": "numeric",
+                  "confidence": 0.978013,
+                  "bbox": [
+                    1578.0,
+                    1719.0,
+                    1779.0,
+                    1754.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "138.538.000",
+                  "value": 138538000,
+                  "state": "numeric",
+                  "confidence": 0.975887,
+                  "bbox": [
+                    1917.0,
+                    1721.0,
+                    2142.0,
+                    1755.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.972268,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p54-t2-r3",
+              "raw_label": "Güneşli Bina",
+              "normalized_label": "Güneşli Bina",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                304,
+                1775,
+                538,
+                1817
+              ],
+              "values": {
+                "c1": {
+                  "raw": "83.586.353",
+                  "value": 83586353,
+                  "state": "numeric",
+                  "confidence": 0.978102,
+                  "bbox": [
+                    1578.0,
+                    1779.0,
+                    1778.0,
+                    1814.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "81.890.000",
+                  "value": 81890000,
+                  "state": "numeric",
+                  "confidence": 0.953056,
+                  "bbox": [
+                    1940.0,
+                    1782.0,
+                    2142.0,
+                    1815.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.966079,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p54-t2-r4",
+              "raw_label": "İkitelli Bina",
+              "normalized_label": "İkitelli Bina",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                303,
+                1830,
+                516,
+                1869
+              ],
+              "values": {
+                "c1": {
+                  "raw": "186.659.528",
+                  "value": 186659528,
+                  "state": "numeric",
+                  "confidence": 0.978995,
+                  "bbox": [
+                    1557.0,
+                    1841.0,
+                    1779.0,
+                    1874.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "181.435.000",
+                  "value": 181435000,
+                  "state": "numeric",
+                  "confidence": 0.978322,
+                  "bbox": [
+                    1919.0,
+                    1842.0,
+                    2144.0,
+                    1877.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.96313,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "line_item"
+            },
+            {
+              "id": "note-p54-t2-r5",
+              "raw_label": "",
+              "normalized_label": "[unlabelled total]",
+              "note_reference": [],
+              "note_reference_bbox": null,
+              "bbox": [
+                1553,
+                1962,
+                2144,
+                1997
+              ],
+              "values": {
+                "c1": {
+                  "raw": "373.992.222",
+                  "value": 373992222,
+                  "state": "numeric",
+                  "confidence": 0.975498,
+                  "bbox": [
+                    1553.0,
+                    1962.0,
+                    1781.0,
+                    1995.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                },
+                "c2": {
+                  "raw": "423.580.000",
+                  "value": 423580000,
+                  "state": "numeric",
+                  "confidence": 0.976752,
+                  "bbox": [
+                    1914.0,
+                    1964.0,
+                    2144.0,
+                    1997.0
+                  ],
+                  "low_confidence": false,
+                  "warnings": [],
+                  "unit": null
+                }
+              },
+              "confidence": 0.862073,
+              "warnings": [],
+              "source_page": 54,
+              "low_confidence": false,
+              "period": null,
+              "hierarchy": {
+                "level": 0,
+                "parent_id": null,
+                "evidence": [
+                  "flat_table_layout"
+                ]
+              },
+              "row_type": "total"
+            }
+          ],
+          "region": [
+            0.37927350427350426,
+            0.57505698005698
+          ],
+          "low_confidence": false,
+          "warnings": [],
+          "note_number": 11
+        }
+      ]
+    }
+  ]
+}
